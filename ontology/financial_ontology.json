@@ -1,0 +1,199 @@
+{
+  "title": "Financial Ontology for Risk Analysis",
+  "description": "A specialized ontology for financial entities and their relationships in risk analysis",
+  "version": "1.0",
+  "classes": [
+    {
+      "id": "FinancialEntity",
+      "label": "Financial Entity",
+      "description": "Base class for all financial entities",
+      "subclasses": [
+        {
+          "id": "Organization",
+          "label": "Organization",
+          "description": "A legal entity involved in financial markets",
+          "subclasses": [
+            {
+              "id": "Company",
+              "label": "Company",
+              "description": "A business organization"
+            },
+            {
+              "id": "Bank",
+              "label": "Bank",
+              "description": "A financial institution that accepts deposits and provides loans"
+            },
+            {
+              "id": "InsuranceCompany",
+              "label": "Insurance Company",
+              "description": "A company that provides insurance services"
+            },
+            {
+              "id": "InvestmentFirm",
+              "label": "Investment Firm",
+              "description": "A company that manages investments"
+            },
+            {
+              "id": "Regulator",
+              "label": "Regulator",
+              "description": "A government body that regulates financial activities"
+            }
+          ]
+        },
+        {
+          "id": "Person",
+          "label": "Person",
+          "description": "An individual involved in financial markets",
+          "subclasses": [
+            {
+              "id": "Executive",
+              "label": "Executive",
+              "description": "A senior manager in a financial organization"
+            },
+            {
+              "id": "Investor",
+              "label": "Investor",
+              "description": "An individual who invests in financial markets"
+            },
+            {
+              "id": "Analyst",
+              "label": "Analyst",
+              "description": "An individual who analyzes financial markets"
+            },
+            {
+              "id": "Regulator",
+              "label": "Regulator",
+              "description": "An individual who regulates financial activities"
+            }
+          ]
+        },
+        {
+          "id": "FinancialInstrument",
+          "label": "Financial Instrument",
+          "description": "A tradable asset or contractual agreement",
+          "subclasses": [
+            {
+              "id": "Stock",
+              "label": "Stock",
+              "description": "Equity ownership in a corporation"
+            },
+            {
+              "id": "Bond",
+              "label": "Bond",
+              "description": "A fixed income investment representing a loan"
+            },
+            {
+              "id": "Derivative",
+              "label": "Derivative",
+              "description": "A contract whose value is derived from an underlying asset"
+            },
+            {
+              "id": "Currency",
+              "label": "Currency",
+              "description": "A medium of exchange"
+            },
+            {
+              "id": "Commodity",
+              "label": "Commodity",
+              "description": "A basic good used in commerce"
+            }
+          ]
+        },
+        {
+          "id": "MarketEntity",
+          "label": "Market Entity",
+          "description": "An entity related to financial markets",
+          "subclasses": [
+            {
+              "id": "Exchange",
+              "label": "Exchange",
+              "description": "A marketplace for trading financial instruments"
+            },
+            {
+              "id": "Index",
+              "label": "Index",
+              "description": "A statistical measure of a market or sector"
+            },
+            {
+              "id": "Sector",
+              "label": "Sector",
+              "description": "A segment of the economy"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "has_subsidiary",
+      "label": "Has Subsidiary",
+      "description": "Indicates that an organization has a subsidiary",
+      "domain": "Organization",
+      "range": "Organization"
+    },
+    {
+      "id": "is_competitor_of",
+      "label": "Is Competitor Of",
+      "description": "Indicates that an organization competes with another",
+      "domain": "Organization",
+      "range": "Organization"
+    },
+    {
+      "id": "regulates",
+      "label": "Regulates",
+      "description": "Indicates that an entity regulates another",
+      "domain": "Regulator",
+      "range": "FinancialEntity"
+    },
+    {
+      "id": "employs",
+      "label": "Employs",
+      "description": "Indicates that an organization employs a person",
+      "domain": "Organization",
+      "range": "Person"
+    },
+    {
+      "id": "invests_in",
+      "label": "Invests In",
+      "description": "Indicates that an entity invests in another",
+      "domain": "FinancialEntity",
+      "range": "FinancialEntity"
+    },
+    {
+      "id": "issues",
+      "label": "Issues",
+      "description": "Indicates that an organization issues a financial instrument",
+      "domain": "Organization",
+      "range": "FinancialInstrument"
+    },
+    {
+      "id": "is_part_of",
+      "label": "Is Part Of",
+      "description": "Indicates that an entity is part of another",
+      "domain": "FinancialEntity",
+      "range": "FinancialEntity"
+    },
+    {
+      "id": "trades_on",
+      "label": "Trades On",
+      "description": "Indicates that a financial instrument trades on an exchange",
+      "domain": "FinancialInstrument",
+      "range": "Exchange"
+    },
+    {
+      "id": "is_component_of",
+      "label": "Is Component Of",
+      "description": "Indicates that a financial instrument is part of an index",
+      "domain": "FinancialInstrument",
+      "range": "Index"
+    },
+    {
+      "id": "belongs_to_sector",
+      "label": "Belongs To Sector",
+      "description": "Indicates that an entity belongs to a sector",
+      "domain": "Organization",
+      "range": "Sector"
+    }
+  ]
+}

@@ -1,0 +1,570 @@
+{% extends "layout.html" %}
+
+{% block title %}Risk Analysis{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card mb-3">
+            <div class="card-body">
+                <h1 class="mb-3">Financial Risk Analysis</h1>
+                <p class="lead">
+                    Analysis of financial risks identified from events and their transmission paths in the period
+                    from March 9-April 4, 2025.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mb-4">
+    <!-- Risk Distribution -->
+    <div class="col-md-6 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <i class="fas fa-chart-pie me-1"></i> Risk Type Distribution
+            </div>
+            <div class="card-body">
+                {% if risk_metrics.risk_type_distribution %}
+                <canvas id="risk-type-chart" height="250"></canvas>
+                {% else %}
+                <div class="alert alert-secondary">
+                    No risk data available. Process data to analyze risks.
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    
+    <!-- Risk Severity Distribution -->
+    <div class="col-md-6 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <i class="fas fa-chart-bar me-1"></i> Risk Severity Distribution
+            </div>
+            <div class="card-body">
+                {% if risk_metrics.risk_severity_distribution %}
+                <canvas id="risk-severity-chart" height="250"></canvas>
+                {% else %}
+                <div class="alert alert-secondary">
+                    No risk data available. Process data to analyze risks.
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mb-4">
+    <!-- Risk-Event Correlation Matrix -->
+    <div class="col-12 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <i class="fas fa-table me-1"></i> Risk-Event Correlation Matrix
+            </div>
+            <div class="card-body">
+                {% if risk_metrics.risk_event_correlation %}
+                <div class="table-responsive">
+                    <table class="table table-sm table-bordered">
+                        <thead>
+                            <tr>
+                                <th>Risk Type / Event Type</th>
+                                {% for event_type in risk_metrics.risk_event_correlation[risk_metrics.risk_event_correlation.keys()|list|first].keys() %}
+                                <th>{{ event_type.replace('_', ' ').title() }}</th>
+                                {% endfor %}
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for risk_type, event_correlations in risk_metrics.risk_event_correlation.items() %}
+                            <tr>
+                                <td>{{ risk_type.replace(' Event', '') }}</td>
+                                {% for event_type, count in event_correlations.items() %}
+                                <td class="text-center">
+                                    {% if count > 0 %}
+                                    <span class="badge bg-warning">{{ count }}</span>
+                                    {% else %}
+                                    <span class="text-muted">-</span>
+                                    {% endif %}
+                                </td>
+                                {% endfor %}
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% else %}
+                <div class="alert alert-secondary">
+                    No risk-event correlation data available. Process data to analyze risks.
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mb-4">
+    <!-- Risk Transmission Paths -->
+    <div class="col-md-6 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <i class="fas fa-route me-1"></i> Risk Transmission Paths
+            </div>
+            <div class="card-body">
+                {% if risk_paths %}
+                <div class="mb-3">
+                    <label for="source-risk" class="form-label">Source Risk:</label>
+                    <select id="source-risk" class="form-select form-select-sm">
+                        <option value="">All Sources</option>
+                        {% for risk in risks %}
+                        <option value="{{ risk.id }}">{{ risk.title }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <div class="mb-3">
+                    <label for="target-risk" class="form-label">Target Risk:</label>
+                    <select id="target-risk" class="form-select form-select-sm">
+                        <option value="">All Targets</option>
+                        {% for risk in risks %}
+                        <option value="{{ risk.id }}">{{ risk.title }}</option>
+                        {% endfor %}
+                    </select>
+                </div>
+                <button id="find-risk-path" class="btn btn-sm btn-outline-primary mb-3">Find Path</button>
+                
+                <div id="risk-paths-container">
+                    {% for path in risk_paths %}
+                    <div class="risk-path mb-3" data-source="{{ path.source_id }}" data-target="{{ path.target_id }}">
+                        <h6>
+                            <span class="risk-label">{{ path.source_type.replace(' Event', '') }}</span>
+                            {{ path.source_title }}
+                        </h6>
+                        <div class="d-flex align-items-center my-2">
+                            <div class="me-2">Strength: 
+                                <span class="badge {% if path.strength > 0.7 %}bg-danger{% elif path.strength > 0.4 %}bg-warning{% else %}bg-info{% endif %}">
+                                    {{ (path.strength * 100)|int }}%
+                                </span>
+                            </div>
+                            <div>Relationship: <span class="badge bg-secondary">{{ path.relationship }}</span></div>
+                        </div>
+                        <div class="d-flex align-items-center mb-2">
+                            <span class="me-2">Path:</span>
+                            {% for entity in path.path %}
+                            <span class="entity-label me-1">{{ entity }}</span>
+                            {% if not loop.last %}
+                            <i class="fas fa-arrow-right mx-1 text-muted"></i>
+                            {% endif %}
+                            {% endfor %}
+                        </div>
+                        <h6>
+                            <span class="risk-label">{{ path.target_type.replace(' Event', '') }}</span>
+                            {{ path.target_title }}
+                        </h6>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <div class="alert alert-secondary">
+                    No risk transmission paths identified. Process data to analyze risk relationships.
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    
+    <!-- Most Affected Entities -->
+    <div class="col-md-6 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <i class="fas fa-building me-1"></i> Most Affected Entities
+            </div>
+            <div class="card-body">
+                {% if risk_metrics.most_affected_entities %}
+                <canvas id="affected-entities-chart" height="250"></canvas>
+                
+                <div class="table-responsive mt-3">
+                    <table class="table table-sm">
+                        <thead>
+                            <tr>
+                                <th>Entity</th>
+                                <th>Type</th>
+                                <th>Risk Count</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for entity in risk_metrics.most_affected_entities %}
+                            <tr>
+                                <td>{{ entity.name }}</td>
+                                <td>{{ entity.subtype if entity.subtype else entity.type }}</td>
+                                <td>
+                                    <span class="badge bg-danger">{{ entity.risk_count }}</span>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% else %}
+                <div class="alert alert-secondary">
+                    No entity risk impact data available. Process data to analyze risks.
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mb-4">
+    <!-- Risk Layer Visualization -->
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <i class="fas fa-network-wired me-1"></i> Risk Layer Visualization
+            </div>
+            <div class="card-body p-0">
+                <div id="risk-network" style="height: 600px;"></div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        {% if risk_metrics.risk_type_distribution %}
+        // Risk type distribution chart
+        const riskTypeCtx = document.getElementById('risk-type-chart').getContext('2d');
+        const riskTypeChart = new Chart(riskTypeCtx, {
+            type: 'pie',
+            data: {
+                labels: [
+                    {% for risk_type, count in risk_metrics.risk_type_distribution.items() %}
+                    "{{ risk_type.replace(' Event', '') }}"{% if not loop.last %},{% endif %}
+                    {% endfor %}
+                ],
+                datasets: [{
+                    data: [
+                        {% for risk_type, count in risk_metrics.risk_type_distribution.items() %}
+                        {{ count }}{% if not loop.last %},{% endif %}
+                        {% endfor %}
+                    ],
+                    backgroundColor: [
+                        '#dc3545', '#fd7e14', '#ffc107', '#20c997', '#0dcaf0', 
+                        '#6610f2', '#d63384', '#198754'
+                    ]
+                }]
+            },
+            options: {
+                responsive: true,
+                plugins: {
+                    legend: {
+                        position: 'right',
+                        labels: {
+                            color: '#ffffff'
+                        }
+                    }
+                }
+            }
+        });
+        {% endif %}
+        
+        {% if risk_metrics.risk_severity_distribution %}
+        // Risk severity distribution chart
+        const riskSeverityCtx = document.getElementById('risk-severity-chart').getContext('2d');
+        const riskSeverityChart = new Chart(riskSeverityCtx, {
+            type: 'bar',
+            data: {
+                labels: ['1 (Low)', '2', '3 (Medium)', '4', '5 (High)'],
+                datasets: [{
+                    label: 'Number of Risks',
+                    data: [
+                        {{ risk_metrics.risk_severity_distribution.get(1, 0) }},
+                        {{ risk_metrics.risk_severity_distribution.get(2, 0) }},
+                        {{ risk_metrics.risk_severity_distribution.get(3, 0) }},
+                        {{ risk_metrics.risk_severity_distribution.get(4, 0) }},
+                        {{ risk_metrics.risk_severity_distribution.get(5, 0) }}
+                    ],
+                    backgroundColor: [
+                        '#0dcaf0', '#20c997', '#ffc107', '#fd7e14', '#dc3545'
+                    ]
+                }]
+            },
+            options: {
+                responsive: true,
+                scales: {
+                    y: {
+                        beginAtZero: true,
+                        ticks: {
+                            color: '#ffffff'
+                        },
+                        grid: {
+                            color: 'rgba(255, 255, 255, 0.1)'
+                        }
+                    },
+                    x: {
+                        ticks: {
+                            color: '#ffffff'
+                        },
+                        grid: {
+                            color: 'rgba(255, 255, 255, 0.1)'
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                }
+            }
+        });
+        {% endif %}
+        
+        {% if risk_metrics.most_affected_entities %}
+        // Most affected entities chart
+        const affectedEntitiesCtx = document.getElementById('affected-entities-chart').getContext('2d');
+        const affectedEntitiesChart = new Chart(affectedEntitiesCtx, {
+            type: 'horizontalBar',
+            data: {
+                labels: [
+                    {% for entity in risk_metrics.most_affected_entities[:8] %}
+                    "{{ entity.name }}"{% if not loop.last %},{% endif %}
+                    {% endfor %}
+                ],
+                datasets: [{
+                    label: 'Risk Count',
+                    data: [
+                        {% for entity in risk_metrics.most_affected_entities[:8] %}
+                        {{ entity.risk_count }}{% if not loop.last %},{% endif %}
+                        {% endfor %}
+                    ],
+                    backgroundColor: '#dc3545'
+                }]
+            },
+            options: {
+                indexAxis: 'y',
+                responsive: true,
+                scales: {
+                    x: {
+                        beginAtZero: true,
+                        ticks: {
+                            color: '#ffffff'
+                        },
+                        grid: {
+                            color: 'rgba(255, 255, 255, 0.1)'
+                        }
+                    },
+                    y: {
+                        ticks: {
+                            color: '#ffffff'
+                        },
+                        grid: {
+                            color: 'rgba(255, 255, 255, 0.1)'
+                        }
+                    }
+                },
+                plugins: {
+                    legend: {
+                        display: false
+                    }
+                }
+            }
+        });
+        {% endif %}
+        
+        // Risk path filtering
+        document.getElementById('find-risk-path').addEventListener('click', function() {
+            const sourceRisk = document.getElementById('source-risk').value;
+            const targetRisk = document.getElementById('target-risk').value;
+            
+            // If both values are provided, make an API call to find path
+            if (sourceRisk && targetRisk) {
+                fetch(`/api/get-risk-paths?source_id=${sourceRisk}&target_id=${targetRisk}`)
+                    .then(response => response.json())
+                    .then(data => {
+                        // Update the paths container with new data
+                        const container = document.getElementById('risk-paths-container');
+                        container.innerHTML = '';
+                        
+                        if (data.paths && data.paths.length > 0) {
+                            data.paths.forEach(path => {
+                                // Create and append path element
+                                const pathElement = document.createElement('div');
+                                pathElement.className = 'risk-path mb-3';
+                                pathElement.innerHTML = `
+                                    <h6>
+                                        <span class="risk-label">${path.source_type.replace(' Event', '')}</span>
+                                        ${path.source_title}
+                                    </h6>
+                                    <div class="d-flex align-items-center my-2">
+                                        <div class="me-2">Strength: 
+                                            <span class="badge ${path.strength > 0.7 ? 'bg-danger' : path.strength > 0.4 ? 'bg-warning' : 'bg-info'}">
+                                                ${Math.round(path.strength * 100)}%
+                                            </span>
+                                        </div>
+                                        <div>Relationship: <span class="badge bg-secondary">${path.relationship}</span></div>
+                                    </div>
+                                    <div class="d-flex align-items-center mb-2">
+                                        <span class="me-2">Path:</span>
+                                        ${path.path ? path.path.map((entity, index, array) => 
+                                            `<span class="entity-label me-1">${entity}</span>
+                                            ${index < array.length - 1 ? '<i class="fas fa-arrow-right mx-1 text-muted"></i>' : ''}`
+                                        ).join('') : '<span class="text-muted">Direct connection</span>'}
+                                    </div>
+                                    <h6>
+                                        <span class="risk-label">${path.target_type.replace(' Event', '')}</span>
+                                        ${path.target_title}
+                                    </h6>
+                                `;
+                                container.appendChild(pathElement);
+                            });
+                        } else {
+                            container.innerHTML = '<div class="alert alert-secondary">No path found between selected risks</div>';
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error fetching risk path:', error);
+                    });
+            } else {
+                // Show/hide paths based on selection
+                const paths = document.querySelectorAll('.risk-path');
+                
+                paths.forEach(path => {
+                    const pathSource = path.dataset.source;
+                    const pathTarget = path.dataset.target;
+                    
+                    const sourceMatch = !sourceRisk || pathSource === sourceRisk;
+                    const targetMatch = !targetRisk || pathTarget === targetRisk;
+                    
+                    path.style.display = (sourceMatch && targetMatch) ? 'block' : 'none';
+                });
+            }
+        });
+        
+        // Load risk network visualization
+        fetch('/api/get-graph-data?layer=risk')
+            .then(response => response.json())
+            .then(data => {
+                // Create risk network visualization
+                const container = document.getElementById('risk-network');
+                
+                // Create network nodes and edges
+                const nodes = new vis.DataSet(
+                    data.nodes.map(node => ({
+                        id: node.id,
+                        label: node.label,
+                        title: node.title,
+                        group: node.type,
+                        value: node.severity || 1,
+                        shape: 'dot',
+                        color: {
+                            background: '#dc3545',
+                            border: '#ffffff',
+                            highlight: {
+                                background: '#ff6b6b',
+                                border: '#ffffff'
+                            }
+                        }
+                    }))
+                );
+                
+                const edges = new vis.DataSet(
+                    data.edges.map(edge => ({
+                        from: edge.source,
+                        to: edge.target,
+                        label: edge.label,
+                        title: `${edge.type} (${Math.round(edge.weight * 100)}%)`,
+                        width: edge.weight * 5,
+                        arrows: {
+                            to: {
+                                enabled: true,
+                                scaleFactor: 0.5
+                            }
+                        }
+                    }))
+                );
+                
+                // Network configuration
+                const options = {
+                    nodes: {
+                        font: {
+                            color: '#ffffff',
+                            size: 12
+                        },
+                        scaling: {
+                            min: 10,
+                            max: 30
+                        }
+                    },
+                    edges: {
+                        color: {
+                            color: 'rgba(255, 255, 255, 0.5)',
+                            highlight: '#ffffff'
+                        },
+                        font: {
+                            color: '#ffffff',
+                            size: 10,
+                            background: 'rgba(0, 0, 0, 0.5)'
+                        },
+                        smooth: {
+                            type: 'continuous'
+                        }
+                    },
+                    physics: {
+                        barnesHut: {
+                            gravitationalConstant: -2000,
+                            centralGravity: 0.1,
+                            springLength: 150,
+                            springConstant: 0.05
+                        },
+                        stabilization: {
+                            iterations: 100
+                        }
+                    },
+                    interaction: {
+                        hover: true,
+                        tooltipDelay: 200
+                    }
+                };
+                
+                // Initialize network
+                const network = new vis.Network(container, { nodes, edges }, options);
+                
+                // Node click event
+                network.on('click', function(params) {
+                    if (params.nodes.length > 0) {
+                        const nodeId = params.nodes[0];
+                        const node = nodes.get(nodeId);
+                        
+                        // Highlight node and its connections
+                        const connectedNodes = network.getConnectedNodes(nodeId);
+                        const connectedEdges = network.getConnectedEdges(nodeId);
+                        
+                        // Update node styles
+                        nodes.update(data.nodes.map(n => ({
+                            id: n.id,
+                            color: {
+                                background: n.id === nodeId ? '#ff6b6b' : 
+                                            connectedNodes.includes(n.id) ? '#fd7e14' : '#dc3545',
+                                border: '#ffffff'
+                            },
+                            font: {
+                                color: n.id === nodeId || connectedNodes.includes(n.id) ? '#ffffff' : '#cccccc'
+                            }
+                        })));
+                        
+                        // Update edge styles
+                        edges.update(data.edges.map(e => ({
+                            id: e.id,
+                            color: connectedEdges.includes(e.id) ? '#ffffff' : 'rgba(255, 255, 255, 0.2)'
+                        })));
+                    }
+                });
+            })
+            .catch(error => {
+                console.error('Error loading risk network:', error);
+                document.getElementById('risk-network').innerHTML = 
+                    '<div class="alert alert-danger p-5 m-5 text-center">Error loading risk network</div>';
+            });
+    });
+</script>
+{% endblock %}

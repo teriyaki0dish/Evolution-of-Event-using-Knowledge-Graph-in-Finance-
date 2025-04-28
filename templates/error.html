@@ -1,0 +1,33 @@
+{% extends "layout.html" %}
+
+{% block title %}Error{% endblock %}
+
+{% block content %}
+<div class="container mt-5">
+    <div class="card">
+        <div class="card-header bg-danger text-white">
+            <h4 class="mb-0"><i class="fas fa-exclamation-circle me-2"></i>Error</h4>
+        </div>
+        <div class="card-body">
+            <div class="alert alert-danger">
+                <h5 class="alert-heading">Something went wrong!</h5>
+                <p>{{ error }}</p>
+            </div>
+            
+            <p>Please try the following:</p>
+            <ul>
+                <li>Go back to the <a href="{{ url_for('index') }}">dashboard</a></li>
+                <li>Check the data files to ensure they are properly formatted</li>
+                <li>Try running the data collection and processing pipeline</li>
+                <li>If the issue persists, check the logs for more details</li>
+            </ul>
+            
+            <div class="mt-4">
+                <a href="{{ url_for('index') }}" class="btn btn-primary">
+                    <i class="fas fa-home me-1"></i> Return to Dashboard
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}

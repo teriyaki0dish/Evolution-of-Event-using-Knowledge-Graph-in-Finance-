@@ -1,0 +1,14 @@
+{
+  "entities": [
+    {
+      "id": "cb984bc2-6301-4f9f-ab39-f202bf0c5569",
+      "name": "FRED",
+      "type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mentions": [
+        {
+          "news_id": "c0409cbf-bfc1-4483-aea4-e2f8fb4b4ca8",
+          "context": "FRED: Advance Monthly Sales for Retail and Food Services\n\nThe U.S. Census Bureau conducts the Advance Monthly Retail Trade and Food Services Survey to provide an early estimate of monthly sales by kind of business for retail and food service firms located in the United States.",
+          "confidence": 0.9,
+          "timestamp": 

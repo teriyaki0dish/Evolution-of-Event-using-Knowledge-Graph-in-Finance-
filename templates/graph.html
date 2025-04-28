@@ -1,0 +1,266 @@
+{% extends "layout.html" %}
+
+{% block title %}Knowledge Graph{% endblock %}
+
+{% block head_extras %}
+<style>
+    /* Additional styles for graph page */
+    #graph-container {
+        width: 100%;
+        height: 800px;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+    }
+    
+    .control-panel {
+        background-color: rgba(33, 37, 41, 0.8);
+        padding: 15px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+    
+    .node-legend {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 15px;
+    }
+    
+    .legend-item {
+        display: flex;
+        align-items: center;
+        font-size: 0.9rem;
+    }
+    
+    .legend-color {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        margin-right: 5px;
+        display: inline-block;
+    }
+    
+    .search-results {
+        max-height: 300px;
+        overflow-y: auto;
+    }
+</style>
+{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card mb-3">
+            <div class="card-body">
+                <h1 class="mb-3">Financial Risk Knowledge Graph</h1>
+                <p class="lead">
+                    A three-layer knowledge graph showing relationships between financial entities, events, and risks
+                    based on news from March 9-April 4, 2025.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <!-- Left side control panel -->
+    <div class="col-md-3 mb-4">
+        <div class="control-panel mb-4">
+            <h5 class="mb-3">Visualization Controls</h5>
+            
+            <!-- Layer toggle -->
+            <div class="card mb-3">
+                <div class="card-header">
+                    <i class="fas fa-layer-group me-1"></i> Layers
+                </div>
+                <div class="card-body">
+                    <div class="node-legend">
+                        <div class="legend-item" id="toggle-entity-layer">
+                            <span class="legend-color" style="background-color: var(--entity-color);"></span>
+                            <span>Entities</span>
+                        </div>
+                        <div class="legend-item" id="toggle-event-layer">
+                            <span class="legend-color" style="background-color: var(--event-color);"></span>
+                            <span>Events</span>
+                        </div>
+                        <div class="legend-item" id="toggle-risk-layer">
+                            <span class="legend-color" style="background-color: var(--risk-color);"></span>
+                            <span>Risks</span>
+                        </div>
+                    </div>
+                    
+                    <div class="d-grid gap-2">
+                        <button id="show-all-layers" class="btn btn-sm btn-outline-secondary">
+                            Show All Layers
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Graph layout -->
+            <div class="card mb-3">
+                <div class="card-header">
+                    <i class="fas fa-sliders-h me-1"></i> Layout
+                </div>
+                <div class="card-body">
+                    <select id="layout-selector" class="form-select form-select-sm mb-3">
+                        <option value="force">Force-Directed</option>
+                        <option value="circular">Circular</option>
+                        <option value="hierarchical">Hierarchical</option>
+                    </select>
+                    
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="physics-toggle" checked>
+                        <label class="form-check-label" for="physics-toggle">Physics Simulation</label>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Search panel -->
+            <div class="card mb-3">
+                <div class="card-header">
+                    <i class="fas fa-search me-1"></i> Search
+                </div>
+                <div class="card-body">
+                    <div class="input-group mb-3">
+                        <input type="text" id="search-input" class="form-control form-control-sm" placeholder="Search nodes...">
+                        <button class="btn btn-outline-secondary btn-sm" type="button" id="search-button">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+                    
+                    <select id="search-type" class="form-select form-select-sm mb-3">
+                        <option value="all">All Types</option>
+                        <option value="entity">Entities</option>
+                        <option value="event">Events</option>
+                        <option value="risk">Risks</option>
+                    </select>
+                    
+                    <div id="search-results" class="search-results small">
+                        <!-- Search results will appear here -->
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Analysis panel -->
+        <div class="control-panel">
+            <h5 class="mb-3">Graph Analysis</h5>
+            
+            <!-- Centrality analysis -->
+            <div class="card mb-3">
+                <div class="card-header">
+                    <i class="fas fa-project-diagram me-1"></i> Centrality
+                </div>
+                <div class="card-body">
+                    <select id="centrality-measure" class="form-select form-select-sm mb-3">
+                        <option value="degree">Degree Centrality</option>
+                        <option value="betweenness">Betweenness Centrality</option>
+                        <option value="closeness">Closeness Centrality</option>
+                        <option value="eigenvector">Eigenvector Centrality</option>
+                    </select>
+                    
+                    <div class="d-grid gap-2">
+                        <button id="run-centrality" class="btn btn-sm btn-outline-primary">
+                            Run Analysis
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Community detection -->
+            <div class="card mb-3">
+                <div class="card-header">
+                    <i class="fas fa-users me-1"></i> Community Detection
+                </div>
+                <div class="card-body">
+                    <select id="community-method" class="form-select form-select-sm mb-3">
+                        <option value="louvain">Louvain Method</option>
+                        <option value="label_propagation">Label Propagation</option>
+                    </select>
+                    
+                    <div class="d-grid gap-2">
+                        <button id="run-community" class="btn btn-sm btn-outline-primary">
+                            Detect Communities
+                        </button>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Path finding -->
+            <div class="card">
+                <div class="card-header">
+                    <i class="fas fa-route me-1"></i> Path Finding
+                </div>
+                <div class="card-body">
+                    <div class="mb-3">
+                        <label class="form-label small">Source Node:</label>
+                        <select id="source-node" class="form-select form-select-sm mb-2">
+                            <option value="">Select source...</option>
+                        </select>
+                    </div>
+                    
+                    <div class="mb-3">
+                        <label class="form-label small">Target Node:</label>
+                        <select id="target-node" class="form-select form-select-sm mb-2">
+                            <option value="">Select target...</option>
+                        </select>
+                    </div>
+                    
+                    <div class="d-grid gap-2">
+                        <button id="find-path" class="btn btn-sm btn-outline-primary">
+                            Find Path
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Right side graph visualization -->
+    <div class="col-md-9">
+        <div class="card">
+            <div class="card-body p-0">
+                <!-- Graph visualization container -->
+                <div id="graph-container"></div>
+                
+                <!-- Node details panel (initially hidden) -->
+                <div id="node-details" class="mt-3 p-3 bg-dark rounded" style="display: none;">
+                    <h5 id="node-title" class="mb-3"></h5>
+                    <div id="node-content"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/graph_visualization.js') }}"></script>
+<script>
+    // Initialize graph with data from backend
+    document.addEventListener('DOMContentLoaded', function() {
+        // Initial loading of graph data
+        fetch('/api/get-graph-data?layer=all')
+            .then(response => response.json())
+            .then(data => {
+                initializeGraph('graph-container', data);
+            })
+            .catch(error => {
+                console.error('Error fetching graph data:', error);
+                document.getElementById('graph-container').innerHTML = 
+                    '<div class="alert alert-info p-5 m-5 text-center">' +
+                    '<h4 class="alert-heading mb-4">No Knowledge Graph Data Available</h4>' +
+                    '<p>Use the data collection and processing pipeline to generate the knowledge graph:</p>' +
+                    '<ol class="text-start mx-auto" style="max-width: 500px;">' +
+                    '<li>Go to the <strong>News</strong> tab to collect financial news</li>' +
+                    '<li>Use the "Process" button to extract entities, model events, and analyze risks</li>' +
+                    '<li>Return to this page to view the generated knowledge graph</li>' +
+                    '</ol>' +
+                    '<p class="mt-3">You can also use the "Process All" button on the dashboard to run the complete pipeline</p>' +
+                    '</div>';
+            });
+            
+        // Set up event listeners for controls
+        setupGraphControls();
+    });
+</script>
+{% endblock %}

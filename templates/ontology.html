@@ -1,0 +1,604 @@
+{% extends "layout.html" %}
+
+{% block title %}Ontology{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card mb-3">
+            <div class="card-body">
+                <h1 class="mb-3">Financial Risk Ontology</h1>
+                <p class="lead">
+                    Explore the knowledge schema and structure used for the Financial Risk Evolution Knowledge Graph (FEEKG),
+                    based on FIBO+SEM+ABC methodology.
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mb-4">
+    <!-- Ontology Navigation -->
+    <div class="col-md-3 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <i class="fas fa-sitemap me-1"></i> Ontology Navigation
+            </div>
+            <div class="card-body">
+                <ul class="nav nav-pills flex-column" id="ontologyTabs" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="overview-tab" data-bs-toggle="pill" 
+                                data-bs-target="#overview" type="button" role="tab" 
+                                aria-controls="overview" aria-selected="true">
+                            <i class="fas fa-home me-1"></i> Overview
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="financial-tab" data-bs-toggle="pill" 
+                                data-bs-target="#financial" type="button" role="tab" 
+                                aria-controls="financial" aria-selected="false">
+                            <i class="fas fa-dollar-sign me-1"></i> Financial Ontology
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="risk-tab" data-bs-toggle="pill" 
+                                data-bs-target="#risk" type="button" role="tab" 
+                                aria-controls="risk" aria-selected="false">
+                            <i class="fas fa-exclamation-triangle me-1"></i> Risk Ontology
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="event-tab" data-bs-toggle="pill" 
+                                data-bs-target="#event" type="button" role="tab" 
+                                aria-controls="event" aria-selected="false">
+                            <i class="fas fa-bolt me-1"></i> Event Ontology
+                        </button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="schema-tab" data-bs-toggle="pill" 
+                                data-bs-target="#schema" type="button" role="tab" 
+                                aria-controls="schema" aria-selected="false">
+                            <i class="fas fa-project-diagram me-1"></i> Knowledge Schema
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        
+        <!-- Ontology Legend -->
+        <div class="card mt-3">
+            <div class="card-header">
+                <i class="fas fa-info-circle me-1"></i> Legend
+            </div>
+            <div class="card-body">
+                <div class="d-flex flex-column gap-2">
+                    <div class="d-flex align-items-center">
+                        <span class="legend-color entity-circle me-2"></span>
+                        <span>Entity</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span class="legend-color event-circle me-2"></span>
+                        <span>Event</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span class="legend-color risk-circle me-2"></span>
+                        <span>Risk</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span class="legend-color concept-circle me-2"></span>
+                        <span>Concept</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span class="arrow-line me-2">―→</span>
+                        <span>is-a relation</span>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <span class="arrow-line me-2">⟡→</span>
+                        <span>has-property relation</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Ontology Content -->
+    <div class="col-md-9">
+        <div class="card">
+            <div class="card-body">
+                <div class="tab-content" id="ontologyTabContent">
+                    <!-- Overview Tab -->
+                    <div class="tab-pane fade show active" id="overview" role="tabpanel" aria-labelledby="overview-tab">
+                        <h4 class="mb-4">Financial Risk Evolution Knowledge Graph (FEEKG) Overview</h4>
+                        
+                        <div class="mb-4">
+                            <p>The FEEKG system uses a three-layer knowledge graph architecture to model financial risks and their evolution:</p>
+                            
+                            <ul>
+                                <li><strong>Entity Layer:</strong> Represents financial entities (organizations, people, products, etc.) and their relationships.</li>
+                                <li><strong>Event Layer:</strong> Models financial events, their temporal evolution, and connections to entities.</li>
+                                <li><strong>Risk Layer:</strong> Identifies financial risks, their types, severity, and transmission paths.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <h5 class="mb-3">Ontology Foundation</h5>
+                            <p>The FEEKG ontology is built on three established ontological frameworks:</p>
+                            
+                            <ul>
+                                <li><strong>FIBO (Financial Industry Business Ontology):</strong> Provides the foundational financial concepts and relationships.</li>
+                                <li><strong>SEM (Simple Event Model):</strong> Offers the event modeling framework with temporal and causal relations.</li>
+                                <li><strong>ABC (Association, Behavior, Classification):</strong> Contributes the ontological patterns for risk modeling.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="mb-4">
+                            <h5 class="mb-3">Knowledge Association Schema</h5>
+                            <p>The system implements five types of knowledge association mechanisms:</p>
+                            
+                            <ul>
+                                <li><strong>Topic Association:</strong> Links entities and events by subject matter.</li>
+                                <li><strong>Cascade Association:</strong> Models causal chains and propagation paths.</li>
+                                <li><strong>Classification Association:</strong> Organizes concepts into taxonomies.</li>
+                                <li><strong>Temporal Association:</strong> Establishes time-based relationships.</li>
+                                <li><strong>Knowledge Association Schema:</strong> Integrates the above into a coherent framework.</li>
+                            </ul>
+                        </div>
+                        
+                        <div class="ontology-diagram">
+                            <div class="text-center mb-3">
+                                <h6>FEEKG Construction Framework</h6>
+                            </div>
+                            <div id="overview-diagram" class="ontology-container">
+                                <!-- Visualization will be rendered here -->
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Financial Ontology Tab -->
+                    <div class="tab-pane fade" id="financial" role="tabpanel" aria-labelledby="financial-tab">
+                        <h4 class="mb-4">Financial Static Ontology</h4>
+                        
+                        <div class="mb-4">
+                            <p>
+                                This ontology defines the financial entities, concepts, and their relationships.
+                                It is based on the Financial Industry Business Ontology (FIBO) with additional
+                                adaptations for the specific needs of the FEEKG system.
+                            </p>
+                        </div>
+                        
+                        <div class="ontology-diagram">
+                            <div class="text-center mb-3">
+                                <h6>Financial Entity Ontology</h6>
+                            </div>
+                            <div id="financial-diagram" class="ontology-container">
+                                <!-- Visualization will be rendered here -->
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4">
+                            <h5 class="mb-3">Key Entity Types</h5>
+                            <div class="table-responsive">
+                                <table class="table table-sm">
+                                    <thead>
+                                        <tr>
+                                            <th>Entity Type</th>
+                                            <th>Definition</th>
+                                            <th>Examples</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for entity_type in financial_ontology.entity_types %}
+                                        <tr>
+                                            <td>{{ entity_type.name }}</td>
+                                            <td>{{ entity_type.definition }}</td>
+                                            <td>{{ entity_type.examples|join(", ") }}</td>
+                                        </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4">
+                            <h5 class="mb-3">Relationship Types</h5>
+                            <div class="table-responsive">
+                                <table class="table table-sm">
+                                    <thead>
+                                        <tr>
+                                            <th>Relationship</th>
+                                            <th>Definition</th>
+                                            <th>Domain</th>
+                                            <th>Range</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for relation in financial_ontology.relationships %}
+                                        <tr>
+                                            <td>{{ relation.name }}</td>
+                                            <td>{{ relation.definition }}</td>
+                                            <td>{{ relation.domain }}</td>
+                                            <td>{{ relation.range }}</td>
+                                        </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Risk Ontology Tab -->
+                    <div class="tab-pane fade" id="risk" role="tabpanel" aria-labelledby="risk-tab">
+                        <h4 class="mb-4">Risk Dynamic Ontology</h4>
+                        
+                        <div class="mb-4">
+                            <p>
+                                The Risk Dynamic Ontology models financial risks, their categories, properties,
+                                and transmission mechanisms. It combines concepts from risk management frameworks
+                                with the event evolution principles of the FEEKG system.
+                            </p>
+                        </div>
+                        
+                        <div class="ontology-diagram">
+                            <div class="text-center mb-3">
+                                <h6>Risk Event Ontology</h6>
+                            </div>
+                            <div id="risk-diagram" class="ontology-container">
+                                <!-- Visualization will be rendered here -->
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4">
+                            <h5 class="mb-3">Risk Categories</h5>
+                            <div class="table-responsive">
+                                <table class="table table-sm">
+                                    <thead>
+                                        <tr>
+                                            <th>Risk Type</th>
+                                            <th>Definition</th>
+                                            <th>Impact Areas</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for risk_type in risk_ontology.risk_types %}
+                                        <tr>
+                                            <td>{{ risk_type.name }}</td>
+                                            <td>{{ risk_type.definition }}</td>
+                                            <td>{{ risk_type.impact_areas|join(", ") }}</td>
+                                        </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4">
+                            <h5 class="mb-3">Risk Propagation Rules</h5>
+                            <div class="table-responsive">
+                                <table class="table table-sm">
+                                    <thead>
+                                        <tr>
+                                            <th>Source</th>
+                                            <th>Target</th>
+                                            <th>Mechanism</th>
+                                            <th>Conditions</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for rule in risk_ontology.propagation_rules %}
+                                        <tr>
+                                            <td>{{ rule.source }}</td>
+                                            <td>{{ rule.target }}</td>
+                                            <td>{{ rule.mechanism }}</td>
+                                            <td>{{ rule.conditions }}</td>
+                                        </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Event Ontology Tab -->
+                    <div class="tab-pane fade" id="event" role="tabpanel" aria-labelledby="event-tab">
+                        <h4 class="mb-4">Event Evolution Ontology</h4>
+                        
+                        <div class="mb-4">
+                            <p>
+                                The Event Evolution Ontology models financial events, their temporal sequences,
+                                causal relationships, and evolution patterns. This is the core of the FEEKG's
+                                ability to track how financial situations develop over time.
+                            </p>
+                        </div>
+                        
+                        <div class="ontology-diagram">
+                            <div class="text-center mb-3">
+                                <h6>Event Evolution Modeling</h6>
+                            </div>
+                            <div id="event-diagram" class="ontology-container">
+                                <!-- Visualization will be rendered here -->
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4">
+                            <h5 class="mb-3">Event Types</h5>
+                            <div class="table-responsive">
+                                <table class="table table-sm">
+                                    <thead>
+                                        <tr>
+                                            <th>Event Type</th>
+                                            <th>Definition</th>
+                                            <th>Typical Entities</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for event_type in risk_ontology.event_types %}
+                                        <tr>
+                                            <td>{{ event_type.name }}</td>
+                                            <td>{{ event_type.definition }}</td>
+                                            <td>{{ event_type.entities|join(", ") }}</td>
+                                        </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4">
+                            <h5 class="mb-3">Evolutionary Relationships</h5>
+                            <div class="table-responsive">
+                                <table class="table table-sm">
+                                    <thead>
+                                        <tr>
+                                            <th>Relationship</th>
+                                            <th>Definition</th>
+                                            <th>Temporal Pattern</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for relation in risk_ontology.evolutionary_relations %}
+                                        <tr>
+                                            <td>{{ relation.name }}</td>
+                                            <td>{{ relation.definition }}</td>
+                                            <td>{{ relation.pattern }}</td>
+                                        </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <!-- Knowledge Schema Tab -->
+                    <div class="tab-pane fade" id="schema" role="tabpanel" aria-labelledby="schema-tab">
+                        <h4 class="mb-4">Knowledge Graph Schema</h4>
+                        
+                        <div class="mb-4">
+                            <p>
+                                The complete knowledge graph schema integrates the three layers (entity, event, risk)
+                                into a unified model. This schema defines how information flows between layers and
+                                how the knowledge graph evolves over time.
+                            </p>
+                        </div>
+                        
+                        <div class="ontology-diagram">
+                            <div class="text-center mb-3">
+                                <h6>FEEKG Architecture</h6>
+                            </div>
+                            <div id="schema-diagram" class="ontology-container">
+                                <!-- Visualization will be rendered here -->
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4">
+                            <h5 class="mb-3">Layer Integration</h5>
+                            <div class="table-responsive">
+                                <table class="table table-sm">
+                                    <thead>
+                                        <tr>
+                                            <th>Connection</th>
+                                            <th>Source Layer</th>
+                                            <th>Target Layer</th>
+                                            <th>Properties</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for connection in financial_ontology.layer_connections %}
+                                        <tr>
+                                            <td>{{ connection.name }}</td>
+                                            <td>{{ connection.source }}</td>
+                                            <td>{{ connection.target }}</td>
+                                            <td>{{ connection.properties|join(", ") }}</td>
+                                        </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                        
+                        <div class="mt-4">
+                            <h5 class="mb-3">Knowledge Association Patterns</h5>
+                            <div class="table-responsive">
+                                <table class="table table-sm">
+                                    <thead>
+                                        <tr>
+                                            <th>Pattern</th>
+                                            <th>Definition</th>
+                                            <th>Use Cases</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        {% for pattern in financial_ontology.association_patterns %}
+                                        <tr>
+                                            <td>{{ pattern.name }}</td>
+                                            <td>{{ pattern.definition }}</td>
+                                            <td>{{ pattern.use_cases|join(", ") }}</td>
+                                        </tr>
+                                        {% endfor %}
+                                    </tbody>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .entity-circle {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: var(--entity-color);
+        display: inline-block;
+    }
+    
+    .event-circle {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: var(--event-color);
+        display: inline-block;
+    }
+    
+    .risk-circle {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: var(--risk-color);
+        display: inline-block;
+    }
+    
+    .concept-circle {
+        width: 15px;
+        height: 15px;
+        border-radius: 50%;
+        background-color: #0dcaf0;
+        display: inline-block;
+    }
+    
+    .arrow-line {
+        font-size: 1.2rem;
+        color: var(--link-color);
+    }
+</style>
+{% endblock %}
+
+{% block scripts %}
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        // Initialize visualizations for each ontology diagram
+        initializeOntologyDiagrams();
+    });
+    
+    function initializeOntologyDiagrams() {
+        // Load ontology data from the backend
+        const ontologyData = {
+            overview: {{ financial_ontology.overview_diagram|tojson }},
+            financial: {{ financial_ontology.financial_diagram|tojson }},
+            risk: {{ risk_ontology.risk_diagram|tojson }},
+            event: {{ risk_ontology.event_diagram|tojson }},
+            schema: {{ financial_ontology.schema_diagram|tojson }}
+        };
+        
+        // Define node colors by type
+        const nodeColors = {
+            'entity': '#ffc107',
+            'event': '#fd7e14',
+            'risk': '#dc3545',
+            'concept': '#0dcaf0',
+            'property': '#6c757d',
+            'default': '#20c997'
+        };
+        
+        // Create visualizations for each diagram
+        for (const [diagramType, data] of Object.entries(ontologyData)) {
+            createOntologyVisualization(diagramType + '-diagram', data, nodeColors);
+        }
+    }
+    
+    function createOntologyVisualization(containerId, data, nodeColors) {
+        // Create nodes and edges
+        const nodes = new vis.DataSet(
+            data.nodes.map(node => ({
+                id: node.id,
+                label: node.label,
+                title: node.description || node.label,
+                color: {
+                    background: nodeColors[node.type] || nodeColors.default,
+                    border: '#ffffff',
+                    highlight: {
+                        background: nodeColors[node.type] || nodeColors.default,
+                        border: '#ffffff'
+                    }
+                },
+                font: {
+                    color: '#ffffff'
+                },
+                shape: node.shape || 'ellipse'
+            }))
+        );
+        
+        const edges = new vis.DataSet(
+            data.edges.map(edge => ({
+                from: edge.source,
+                to: edge.target,
+                label: edge.label,
+                arrows: {
+                    to: {
+                        enabled: true,
+                        type: edge.type === 'property' ? 'diamond' : 'arrow'
+                    }
+                },
+                dashes: edge.dashed || false,
+                color: {
+                    color: edge.color || 'rgba(255, 255, 255, 0.5)',
+                    highlight: '#ffffff'
+                },
+                font: {
+                    color: '#ffffff',
+                    size: 10,
+                    background: 'rgba(0, 0, 0, 0.5)'
+                }
+            }))
+        );
+        
+        // Configuration options
+        const options = {
+            nodes: {
+                shape: 'ellipse',
+                font: {
+                    size: 12
+                }
+            },
+            edges: {
+                smooth: {
+                    type: 'continuous'
+                }
+            },
+            layout: {
+                hierarchical: {
+                    direction: 'UD',
+                    sortMethod: 'directed',
+                    levelSeparation: 100,
+                    nodeSpacing: 150
+                }
+            },
+            physics: {
+                enabled: false
+            },
+            interaction: {
+                hover: true,
+                tooltipDelay: 200,
+                navigationButtons: true,
+                keyboard: true
+            }
+        };
+        
+        // Create network
+        const container = document.getElementById(containerId);
+        const network = new vis.Network(container, { nodes, edges }, options);
+    }
+</script>
+{% endblock %}

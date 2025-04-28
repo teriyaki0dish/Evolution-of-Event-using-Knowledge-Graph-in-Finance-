@@ -1,0 +1,6492 @@
+{
+  "nodes": [
+    {
+      "id": "cb984bc2-6301-4f9f-ab39-f202bf0c5569",
+      "layer": "entity",
+      "type": "entity",
+      "name": "FRED",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 1030
+    },
+    {
+      "id": "27ba92f2-4b01-4c98-bbfb-15add97b665c",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Retail and Food Services",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "eabed414-5666-47b8-b719-fa5c98b14f8e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The U.S. Census Bureau",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 5
+    },
+    {
+      "id": "1abda2a1-f141-4075-bdcf-3ab165b4b807",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Advance Monthly Retail Trade",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "2caa4452-1d7b-4af3-8827-9411c5c176dc",
+      "layer": "entity",
+      "type": "entity",
+      "name": "monthly",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 48
+    },
+    {
+      "id": "b657c0b0-f02d-4716-95e2-1e7988231325",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the United States",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 13
+    },
+    {
+      "id": "73ea87a2-20f4-4fad-85ce-a950058299c8",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Each month",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 5
+    },
+    {
+      "id": "a874378d-b120-434c-bc2f-64f87da627e2",
+      "layer": "entity",
+      "type": "entity",
+      "name": "approximately 4,700",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "a5be6255-3a00-4c34-9836-edc0bca7cb18",
+      "layer": "entity",
+      "type": "entity",
+      "name": "current-to previous month",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "62016ca6-a632-4f46-9c5c-fc24e9e07674",
+      "layer": "entity",
+      "type": "entity",
+      "name": "previous month",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "d30120fc-329f-4f37-8401-e941588e5a3f",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the current month",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "03b0fbb9-7eca-4a3f-94fa-3d5e34f67618",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the previous month",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 9
+    },
+    {
+      "id": "04d142a0-cedf-4703-aa72-9ccede4ad65a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "annual",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 13
+    },
+    {
+      "id": "0d8489a9-320b-48ce-a200-0b5bc51be36b",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Annual Retail Trade",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "b2304d3f-84cf-48fb-86cb-339519da0dd9",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Census Bureau",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 5
+    },
+    {
+      "id": "9d45dda7-f815-4de2-8bcc-0d4575a212c0",
+      "layer": "entity",
+      "type": "entity",
+      "name": "www.census.gov/retail",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "c637dfc8-289b-4387-88ba-d80a31501fa5",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Census",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 6
+    },
+    {
+      "id": "186643ce-8172-4ef2-8c26-564fc2e6d7f8",
+      "layer": "entity",
+      "type": "entity",
+      "name": "MARTS",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "ef6f6de7-27f5-436a-9c42-2d79e397db61",
+      "layer": "entity",
+      "type": "entity",
+      "name": "MRTS",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "fb1b91e7-cfa7-4a65-a013-41644ade5c12",
+      "layer": "entity",
+      "type": "entity",
+      "name": "S",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 60
+    },
+    {
+      "id": "8e4390df-0ba8-4f31-837d-dd4178463722",
+      "layer": "entity",
+      "type": "entity",
+      "name": "U",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 59
+    },
+    {
+      "id": "7e7b82bf-dfa1-4aab-9016-013d4302ff0b",
+      "layer": "entity",
+      "type": "entity",
+      "name": "G.17 Industrial Production and Capacity Utilization",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "ea58db59-f3b6-4961-96cf-197a57a83afd",
+      "layer": "entity",
+      "type": "entity",
+      "name": "G",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 13
+    },
+    {
+      "id": "25cfccf7-efba-4808-99b2-e899ccde932e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "H.10 Foreign Exchange",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "f237b0d0-5286-4b6f-9d5a-2d89c9e6fdd4",
+      "layer": "entity",
+      "type": "entity",
+      "name": "H",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 11
+    },
+    {
+      "id": "30a806ed-7f59-47ad-8a40-8e0fb69f8bed",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The Board of Governors",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 6
+    },
+    {
+      "id": "3337b7c8-a457-43f7-a86a-0991d4481729",
+      "layer": "entity",
+      "type": "entity",
+      "name": "September 17, 2020",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 3
+    },
+    {
+      "id": "3474f0e4-f683-42e2-b1c6-e59b105dfa8c",
+      "layer": "entity",
+      "type": "entity",
+      "name": "August 20, 2020",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 3
+    },
+    {
+      "id": "304df788-9356-442a-bc6a-2532d3d19ab7",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Factors Affecting Reserve Balances",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "5da8cf79-f8ed-436f-9bf0-0e17169fc3c3",
+      "layer": "entity",
+      "type": "entity",
+      "name": "https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/h6/%",
+      "entity_type": "PRODUCT",
+      "subtype": "Financial Product",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "7522dbd2-be26-4018-8ada-be344c9cc2e1",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The Manufacturing and Trade",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "d15bbd44-762d-4a77-a606-5437a7c67c94",
+      "layer": "entity",
+      "type": "entity",
+      "name": "three",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 8
+    },
+    {
+      "id": "19a39203-fd06-493b-9df9-4e8146dcc75a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Monthly Retail Trade Survey",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "7b71bf29-12e7-4309-b0a6-e6aaf1885347",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Monthly Wholesale Trade Survey",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 3
+    },
+    {
+      "id": "fbea566a-9369-4bd0-b3ee-3319958835c8",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Monthly Wholesale Trade Report",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "2a540b99-c026-4e4e-8c23-22ae11cae66c",
+      "layer": "entity",
+      "type": "entity",
+      "name": "U.S. International Transactions\n\n\n\nTrue",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "5e2bcd02-352e-4cc6-82d1-a99f59e842a1",
+      "layer": "entity",
+      "type": "entity",
+      "name": "U.S. International Trade in Goods and Services\n\n\n\nTrue",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "9e12e322-8ac2-4230-b555-50ab47887f10",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Flow of Funds",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "e8c2a392-85bc-41c0-a4ee-c3fd954e5f6d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the National Income and Product",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "d63c5113-7b31-4866-b1f8-14bda67c99c9",
+      "layer": "entity",
+      "type": "entity",
+      "name": "NIPA",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "16e39fc4-9b64-4ba9-a878-11d79a5399ea",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Financial",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "ac70bbeb-6fc0-4913-9562-dc1c6e113262",
+      "layer": "entity",
+      "type": "entity",
+      "name": "two",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 7
+    },
+    {
+      "id": "756701e8-2410-450a-851b-9135dc2c09cd",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Federal Reserve System",
+      "entity_type": "ORG",
+      "subtype": "Central Bank",
+      "attributes": {},
+      "mention_count": 7
+    },
+    {
+      "id": "243dc587-9163-495b-a90a-75e99b6f4cd1",
+      "layer": "entity",
+      "type": "entity",
+      "name": "One",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 9
+    },
+    {
+      "id": "74b8f17f-9b5c-44d0-9cb5-25586026854f",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Federal Reserve System.(2",
+      "entity_type": "ORG",
+      "subtype": "Central Bank",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "b957ddfe-309d-4806-98ad-88bde8838412",
+      "layer": "entity",
+      "type": "entity",
+      "name": "quarterly",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 17
+    },
+    {
+      "id": "89cc6ed4-1cea-4692-9e4d-14143552fd88",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Federal Reserve\u2019s",
+      "entity_type": "ORG",
+      "subtype": "Central Bank",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "596d5ed5-3258-4978-a81c-861757ceab9a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Teplin",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "40366593-d9ea-418d-8712-71766f736088",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Albert M.",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "68b98e3c-daf8-4415-9393-cc596eb8c260",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Federal Reserve Bulletin",
+      "entity_type": "ORG",
+      "subtype": "Central Bank",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "6f2acb47-58fb-4029-9051-b83d4a402c12",
+      "layer": "entity",
+      "type": "entity",
+      "name": "July 2001",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 3
+    },
+    {
+      "id": "3eec4f35-12f3-4a36-93da-7fc265bc7c93",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Board of Governors",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 5
+    },
+    {
+      "id": "30a8ce74-5899-4383-8a5a-240ef747ae42",
+      "layer": "entity",
+      "type": "entity",
+      "name": "https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/releases/z1/%",
+      "entity_type": "NORP",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "8c769abb-2db6-4a24-ada3-abe2afef90ad",
+      "layer": "entity",
+      "type": "entity",
+      "name": "M",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 3
+    },
+    {
+      "id": "5683ce4c-907b-4e8a-8913-62d9188ca772",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Z",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "2242d2fd-6dff-4bd8-b369-2b5b290cdf04",
+      "layer": "entity",
+      "type": "entity",
+      "name": "MZM",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "b7cc0fb4-bacd-430e-870e-c3595ef8a218",
+      "layer": "entity",
+      "type": "entity",
+      "name": "MSI",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "f2d0e0fa-fe9f-4d32-aafc-2dabf7e07f30",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Daily Treasury",
+      "entity_type": "ORG",
+      "subtype": "Government",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "fba3b799-711f-457b-9a41-6878382c79ce",
+      "layer": "entity",
+      "type": "entity",
+      "name": "St. Louis Monthly Reserves",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "688fecad-07ee-4593-b8bd-105472a9f98d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "St. Louis Bi-Weekly",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "71e098ab-ca43-4a24-9b58-156b734ccb88",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Treasury",
+      "entity_type": "ORG",
+      "subtype": "Government",
+      "attributes": {},
+      "mention_count": 3
+    },
+    {
+      "id": "5cf8442f-c878-4529-b7c8-31aedd53e920",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Fiscal Year",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "53f4d676-337c-4fd0-bb37-720d8c8a73ea",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Transitional Euro Country Exchange",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "d2b39b2e-25b3-4471-9f28-4d12291de8a7",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Secondary Market Prices",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "78f7ef55-fd5c-4728-8dc9-5556727e1909",
+      "layer": "entity",
+      "type": "entity",
+      "name": "M3",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "7a305ba6-e9b5-4562-bdd5-924e525c923f",
+      "layer": "entity",
+      "type": "entity",
+      "name": "FOMC",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "99228ebe-b0dd-45a7-86fb-5a1422478dd8",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Wall Street Journal",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "ebb295fd-85fa-4292-af71-1d8f34fdd2a4",
+      "layer": "entity",
+      "type": "entity",
+      "name": "St. Louis Weekly Reserves",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "f721c7dc-905b-465e-a348-5bc0655a5574",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Metropolitan Area Employment and Unemployment\n\n\n\nTrue",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "a4881429-4a08-433e-9989-973d3282cf6b",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The Local Area Unemployment Statistics",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "787baf8b-db39-4c79-bbd3-005de5ed2c8a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Current Population Survey",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 7
+    },
+    {
+      "id": "2d980121-3408-4dde-bd89-ce02fa0f80ab",
+      "layer": "entity",
+      "type": "entity",
+      "name": "CPS",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 5
+    },
+    {
+      "id": "7e09a412-6f1a-4fe4-8f70-b703c3177bad",
+      "layer": "entity",
+      "type": "entity",
+      "name": "U.S.",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 39
+    },
+    {
+      "id": "8ade5be5-2b4c-4b7e-9293-6dc342630727",
+      "layer": "entity",
+      "type": "entity",
+      "name": "States",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 3
+    },
+    {
+      "id": "9506d438-ad5a-4599-8421-06f9ca98f26d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Puerto Rico",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 3
+    },
+    {
+      "id": "7e11ae4a-2e39-489b-8e98-c97810caeaf3",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Selected Interest",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "a3d726e4-dc9e-4ba6-a204-e853dfe23903",
+      "layer": "entity",
+      "type": "entity",
+      "name": "January 8, 2002",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "82f1e4b8-c4a2-4445-b2a4-fa2597b1857c",
+      "layer": "entity",
+      "type": "entity",
+      "name": "December 2001",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "c4253b83-0a53-42e5-8b17-bebef2cc73fa",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Federal Reserve",
+      "entity_type": "ORG",
+      "subtype": "Central Bank",
+      "attributes": {},
+      "mention_count": 3
+    },
+    {
+      "id": "ae178851-0001-48de-bf9e-a0a55ff20c43",
+      "layer": "entity",
+      "type": "entity",
+      "name": "BEA",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 9
+    },
+    {
+      "id": "2cc0f499-4032-48ad-a9fe-42e5d07f0f18",
+      "layer": "entity",
+      "type": "entity",
+      "name": "State",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 9
+    },
+    {
+      "id": "fbd522d3-a9a4-4317-b4a6-65af02428872",
+      "layer": "entity",
+      "type": "entity",
+      "name": "State Government Tax Collections",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "f4a544e4-b7b9-422b-b48d-3209b764140a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Health Insurance Coverage",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "1e8c5501-7b0e-4c5f-9b2d-d5e5c77fd85d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Australian Foreign Exchange Transactions",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "5eea04df-9955-436f-9be2-b06a0fd7f81f",
+      "layer": "entity",
+      "type": "entity",
+      "name": "German Foreign Exchange Intervention",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "4ae43f75-88c3-47ef-8a26-f451bac56eff",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Italian Foreign Exchange Intervention",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "9fe22eeb-8d9b-41cb-ab6d-32181c42730e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Swiss Foreign Exchange Intervention",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "c4d0fa1a-a6e9-43f3-9620-7a9740e5b27a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Turkish Foreign Exchange Intervention",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "2d950cc4-9cb0-4862-9d3a-2454eebe8860",
+      "layer": "entity",
+      "type": "entity",
+      "name": "U.S. Foreign Exchange Intervention",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "8caf823c-1e65-44af-a6c3-a42e7f662c7a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Japan Foreign Exchange Intervention",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "82de70fb-af13-45b3-9f0d-c74f2494233f",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Metropolitan Area",
+      "entity_type": "LOC",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 3
+    },
+    {
+      "id": "621024ac-d7b1-47e0-b87d-f1d5a8546ce9",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Mexican Foreign Exchange Intervention",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "a7b406b2-1339-43be-8a5c-92cacaa7f430",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Quarterly Retail E-Commerce Sales",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "1eac5ec9-fefc-400e-9520-e9c75af5b15e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "E",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 7
+    },
+    {
+      "id": "5a5e345f-78d3-4578-9e8b-2b8a603104a4",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Diesel Fuel",
+      "entity_type": "PRODUCT",
+      "subtype": "Financial Product",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "a9da6acb-d104-455d-97a8-7a96bd8e33a7",
+      "layer": "entity",
+      "type": "entity",
+      "name": "https://www.federalreserve.gov/apps/ContactUs/feedback.aspx?refurl=/monetarypolicy/reserve-balances.htm",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "ccfc9b9b-85ab-401e-a9dd-2d83e9df7732",
+      "layer": "entity",
+      "type": "entity",
+      "name": "G.5A Foreign Exchange",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "adeaa25f-81a2-4d80-a901-22b2591578f8",
+      "layer": "entity",
+      "type": "entity",
+      "name": "St. Louis Fed Financial Stress",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "2d2399ff-c7e6-4d2a-8ad8-8613e2f87039",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the St. Louis Financial Stress",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "1a78a0c9-6965-46bd-83f8-c493cda3d602",
+      "layer": "entity",
+      "type": "entity",
+      "name": "U.S. Import and Export Price",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "1f9cf5b6-4aa9-4cba-9b09-baaa10ff6f9e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Bank Lending Practices",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "6f3086f7-4bb3-4b8e-bf9f-e47c482db2cc",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Federal Reserve System&#39;s",
+      "entity_type": "ORG",
+      "subtype": "Central Bank",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "9c6a663c-8c10-4d44-80dd-7e819e7329c9",
+      "layer": "entity",
+      "type": "entity",
+      "name": "SLOOS",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "42048726-302f-4eb0-948b-05fe2b8e728f",
+      "layer": "entity",
+      "type": "entity",
+      "name": "ADP National Employment Report",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "45508aed-a243-43a7-8348-319ea56d6dfe",
+      "layer": "entity",
+      "type": "entity",
+      "name": "ADP",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "4223bf9a-5e17-4dc4-9854-0a9750eda210",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Kansas City Financial",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "0423e762-e2c1-4c1d-a883-4043a044a70d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "P",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 3
+    },
+    {
+      "id": "14e854d3-b812-44d5-badb-68256c51bb08",
+      "layer": "entity",
+      "type": "entity",
+      "name": "CBOE",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "id": "f48f82f9-4e48-41a4-b67c-a12af64fca6b",
+      "layer": "entity",
+      "type": "entity",
+      "name": "six-month",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "4fd71fc5-6341-47a6-ac66-cbe222477f5d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "1 to 4",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "6313c193-2447-426b-b2b6-c62a0093d63b",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Institute for Supply Management",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "66169d9b-5d37-4e90-903a-9ec9b1dcb3c4",
+      "layer": "entity",
+      "type": "entity",
+      "name": "10-year",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "3717dc17-c715-4ff8-bbec-a49cc3c2407a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "3-month",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "74f73eb7-c769-48cb-8589-784a7b205966",
+      "layer": "entity",
+      "type": "entity",
+      "name": "ISM",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "436389dc-3380-49e2-9390-73bb9fd07912",
+      "layer": "entity",
+      "type": "entity",
+      "name": "ICE",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "5654c70f-2ff8-497f-82b1-2f5cd1a11290",
+      "layer": "entity",
+      "type": "entity",
+      "name": "E.2",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "486d31c9-43a5-4c6a-897a-51012029e41c",
+      "layer": "entity",
+      "type": "entity",
+      "name": "May 2017",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "a52d5ada-01d8-425e-b77b-5e08765f3238",
+      "layer": "entity",
+      "type": "entity",
+      "name": "August 2, 2017",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "fa016d8e-ad6a-4019-9460-568da9274c15",
+      "layer": "entity",
+      "type": "entity",
+      "name": "STBL",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "dfc21555-2b3a-4d33-b77f-fd5c27aefeba",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Small Business Lending Survey",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "d04c297d-426c-40f2-bbcf-741b08f61699",
+      "layer": "entity",
+      "type": "entity",
+      "name": "February 2018",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "09b6bc54-672e-4a49-87e3-81f26d7a6e82",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Federal Reserve Bank",
+      "entity_type": "ORG",
+      "subtype": "Central Bank",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "7fe98f0a-0612-47eb-9e0a-b40314a58a04",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Kansas City",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "f5541c90-f64b-47c8-b692-575c058ae11b",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the middle month of each quarter",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "0af28462-6aec-4033-9e3a-9ab3cd97c2c5",
+      "layer": "entity",
+      "type": "entity",
+      "name": "month",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 26
+    },
+    {
+      "id": "625345d2-815b-4950-bd9b-7f4838b5c148",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Chicago Fed National",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "a866e8b3-a0dc-445f-ae71-23207f13ba4a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Chicago Fed National Financial Conditions",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "617735fd-c0a4-45e5-9023-3015290d6055",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Quarterly Starts and Completions by Purpose and Design\n\n\n\nFalse",
+      "entity_type": "WORK_OF_ART",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "27eb4be8-28a0-4a30-9971-f610a0f6a829",
+      "layer": "entity",
+      "type": "entity",
+      "name": "International Comparisons of Manufacturing Productivity",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "66ee06b7-22fa-47cb-915b-4d053daa103b",
+      "layer": "entity",
+      "type": "entity",
+      "name": "World Bank",
+      "entity_type": "ORG",
+      "subtype": "International Organization",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "b700f8b9-067d-4fd1-b814-ebaeba92f96d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "IMF",
+      "entity_type": "ORG",
+      "subtype": "International Organization",
+      "attributes": {},
+      "mention_count": 6
+    },
+    {
+      "id": "ed487105-196d-4ec0-9a83-d86275092173",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Statistics Department of the IMF",
+      "entity_type": "ORG",
+      "subtype": "International Organization",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "cafe42ce-b463-466e-b7bc-ba32b254f55e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Concepts and Definitions",
+      "entity_type": "WORK_OF_ART",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "480043d9-162d-481a-9e76-36d63db0dbcc",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The Statistics Department",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "53b48116-9e1c-4e3c-b887-da12d7a7c5c7",
+      "layer": "entity",
+      "type": "entity",
+      "name": "FSI",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "2a26d2f3-9104-4019-a98c-19dde175585f",
+      "layer": "entity",
+      "type": "entity",
+      "name": "International Financial Statistics",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "9cc69ac8-8410-4eb0-a000-99cc0c914e44",
+      "layer": "entity",
+      "type": "entity",
+      "name": "World Economic Outlook",
+      "entity_type": "EVENT",
+      "subtype": "Financial Event",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "b8275abc-e22e-49bd-a42a-c057100191ae",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The World Economic Outlook",
+      "entity_type": "EVENT",
+      "subtype": "Financial Event",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "090fa45a-6bfb-4fff-8380-c6592743c948",
+      "layer": "entity",
+      "type": "entity",
+      "name": "biannual",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "6847ad8a-2d1a-4b37-acf6-173cf270f60f",
+      "layer": "entity",
+      "type": "entity",
+      "name": "WEO",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 8
+    },
+    {
+      "id": "64e059e1-246b-4ce2-911b-60474b3b463f",
+      "layer": "entity",
+      "type": "entity",
+      "name": "January and June of each year",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "d879c87c-7c06-45e7-a6d3-958e97468a10",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the April and September WEO",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "2c1118d7-1d37-4b12-b55f-dc0414686e6f",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the World Economic Outlook Reports",
+      "entity_type": "EVENT",
+      "subtype": "Financial Event",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "204b4b3e-cbf8-4861-a143-ec288c039456",
+      "layer": "entity",
+      "type": "entity",
+      "name": "US Business Cycle Expansions",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "78925660-b1c2-42b6-b613-2e8bbedaa2cc",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The National Bureau of Economic Research",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "2152f912-2a05-4503-a49e-332285738601",
+      "layer": "entity",
+      "type": "entity",
+      "name": "NBER",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 6
+    },
+    {
+      "id": "9db52294-1b4a-4f90-8609-dfed7c971369",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Organisation of Economic Development",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "cf8bf955-12a6-4e83-aea3-a0b3494306fd",
+      "layer": "entity",
+      "type": "entity",
+      "name": "OECD",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "11830d08-ea20-4357-9256-e3cf05c0a164",
+      "layer": "entity",
+      "type": "entity",
+      "name": "months",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "91373af4-d730-4895-97c2-24687d9f6578",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Business Cycle Dating Committee",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "0bde0bfc-a724-4182-a20b-a26ed4193dd3",
+      "layer": "entity",
+      "type": "entity",
+      "name": "first",
+      "entity_type": "ORDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 20
+    },
+    {
+      "id": "5653c233-8217-4c76-a9fe-46cc39777b5c",
+      "layer": "entity",
+      "type": "entity",
+      "name": "daily",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 6
+    },
+    {
+      "id": "46be43a9-82ae-4908-a400-ea5553f05b97",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the 15th of the month",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "17be01be-0cb0-4f3d-8e95-178d5b14d0a1",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The Federal Reserve Bank of St. Louis",
+      "entity_type": "ORG",
+      "subtype": "Central Bank",
+      "attributes": {},
+      "mention_count": 6
+    },
+    {
+      "id": "e0e236a2-7dd1-4fb6-be92-0663e1fc6a66",
+      "layer": "entity",
+      "type": "entity",
+      "name": "second",
+      "entity_type": "ORDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "4f2edccc-dc35-4e09-b341-e09b7541a80e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the first day of the first month",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "adff6153-d76e-47aa-9015-820cbde88aa2",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the last day of the month",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "d001a5f7-04f4-4548-8c65-b7013166cdb3",
+      "layer": "entity",
+      "type": "entity",
+      "name": "third",
+      "entity_type": "ORDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 6
+    },
+    {
+      "id": "5b4287fb-d4da-475d-ba7e-a36ba71659b7",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the first day of the month",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "a32a434b-7016-48b5-a8d1-093f5794cfff",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Foreign Exchange Value",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "0bf9d648-5ed5-4e06-a2dc-d6faaf91aaf3",
+      "layer": "entity",
+      "type": "entity",
+      "name": "HICP",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "fb0c85be-0df8-449b-883f-ba4dd1b40cd2",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the European Union",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "dff45709-46a8-4543-9f7c-c88f9509fca4",
+      "layer": "entity",
+      "type": "entity",
+      "name": "European",
+      "entity_type": "NORP",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "c8cddc8b-d5f0-4a74-a661-5ce126088f07",
+      "layer": "entity",
+      "type": "entity",
+      "name": "7.1",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "0c0b201a-7cb3-4134-be8a-4fb2c4bfc751",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Weekly",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 6
+    },
+    {
+      "id": "6245707c-5436-4ac0-b05a-e62d67a635ca",
+      "layer": "entity",
+      "type": "entity",
+      "name": "State Bond Prices",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "21c53253-8426-457d-9033-76f5313d3df2",
+      "layer": "entity",
+      "type": "entity",
+      "name": "1855-1865",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "b6b4508f-2ecc-4a12-a685-a20a4956639d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "January 1855 through November 1865",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "8f29eab2-644d-411a-b23d-107d3884959a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Notes",
+      "entity_type": "PRODUCT",
+      "subtype": "Financial Product",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "bfa9d958-ec3b-4559-99cb-639599933fe1",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The Bankers\u2019 Magazine",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "275e5499-f77f-45b1-8afc-2a055fe03554",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Statistical Register",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "8d90b558-5cd5-42d1-8e24-974ecb97741e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The New York Times\u2019",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "a3d2dd57-6653-4931-9199-d605d994d54c",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the New York Stock Exchange",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "ce4023c3-fefb-48fa-8aa6-e071fd3d8c52",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Dwyer",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "8321f88a-44cc-4f0f-af23-24f85e54aece",
+      "layer": "entity",
+      "type": "entity",
+      "name": "R.W. Hafer",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "3bdedd27-690c-41ee-a3be-08896c0618ad",
+      "layer": "entity",
+      "type": "entity",
+      "name": "W.E. Weber",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "ce0de3e2-11e1-42c7-87f6-aee612b3f9a3",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Weekly U.S. and State Bond Prices",
+      "entity_type": "WORK_OF_ART",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "ea574592-6270-435d-a0ce-d709462b43fa",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Historical Methods",
+      "entity_type": "WORK_OF_ART",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "ba1a5674-2b3c-4d21-8cc9-9687d175067e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "32:1",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "a9178eed-51b3-4b62-87d5-b499a498ca3a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "W",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "3bc413fe-c7c0-4ae3-921f-1152173f19c1",
+      "layer": "entity",
+      "type": "entity",
+      "name": "R",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "1bad4f69-b2be-480d-9541-6043701ca24a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Bank of Japan Accounts",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "f978d14e-1b97-4614-89d2-d98484150351",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Eurostat",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "9df4f8e7-bbb1-4ad5-a853-488a00394656",
+      "layer": "entity",
+      "type": "entity",
+      "name": "United Kingdom Main Aggregates",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "dcafa0ef-8bd0-467c-961d-b0dcfcda8484",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Japan",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "d082a549-d849-491e-a4a2-a9015f9f4f68",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Bankstats",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "927d3730-f6ef-40e3-b6f9-02f2c96324f0",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Monetary & Financial Statistics",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "9db866af-c5f5-412a-bc0d-16fba25b58b9",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Eurosystem\n\n\n\nTrue",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "34c9a4bd-4703-4f72-82dd-6dc194aa8661",
+      "layer": "entity",
+      "type": "entity",
+      "name": "University of Louisville",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "3037b035-b344-4ae1-a647-9e0e8dd42561",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Oklahoma State University",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "251781f6-0a2e-48ca-a9bc-ea50b088915e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "LoDI",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "f0fb1321-80be-43c8-932d-9fa9b0c7927e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "US",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "e01da80c-33fc-4cd1-b77f-049cf5fcfce0",
+      "layer": "entity",
+      "type": "entity",
+      "name": "between 1 and 100",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "af90e586-1263-4192-8c7b-0231a360455d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The Greater Louisville",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "25f161eb-866a-44bb-aea1-ca59087d6d38",
+      "layer": "entity",
+      "type": "entity",
+      "name": "National LoDI Indices",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "967c74a9-4261-44cd-a61f-243ae927e948",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the University of Louisville",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "bbe92ee2-c0e7-46e3-95b9-5626943dbd14",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Heragu",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "4a3dab38-5a19-4c0c-a100-47165b5bd2c2",
+      "layer": "entity",
+      "type": "entity",
+      "name": "IE&M Department",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "5acb9e3e-9cc5-46b3-9ddf-29b2730327bb",
+      "layer": "entity",
+      "type": "entity",
+      "name": "DePuy",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "d2ab752a-3ace-41eb-a903-465f48628ab3",
+      "layer": "entity",
+      "type": "entity",
+      "name": "IE",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "c0c95893-a114-4269-80a0-65c596d8bdaa",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Global Financial Development",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "0ca9c8fc-bd8f-4512-b1b0-597a8b7b1026",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Penn World Table",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "aad5edb3-c994-4f28-9010-ccc082e870e2",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Federal Recovery Programs",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "c3a04710-ccd5-4d25-b52b-f147a80bb6ca",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Quarterly Services",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "b688ac3a-6424-4e0d-857b-80018c964a4a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "MWTS",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "d866bfd7-5534-4f6c-9ae9-dc0ab5aefb2c",
+      "layer": "entity",
+      "type": "entity",
+      "name": "NAICS Industry Group",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "9f6ae842-88ed-47d1-92e9-c72017ff7b7f",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Wholesale Electronic Markets and Agents and Brokers",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "4bf2b938-a947-4b92-adf7-13cb858800af",
+      "layer": "entity",
+      "type": "entity",
+      "name": "NAICS",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 12
+    },
+    {
+      "id": "37347c22-4b09-4f2d-970a-5ea15243da0d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Chicago Fed Midwest Manufacturing",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "4606f9f4-df1d-4065-b60f-056998b144db",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The Chicago Fed Midwest Manufacturing",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "5c11cdde-d212-485c-9ad5-a6305c8daa69",
+      "layer": "entity",
+      "type": "entity",
+      "name": "CFMMI",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "72613236-ade7-4621-85ae-f14c5f762923",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Seventh Federal Reserve District",
+      "entity_type": "ORG",
+      "subtype": "Central Bank",
+      "attributes": {},
+      "mention_count": 6
+    },
+    {
+      "id": "4d3a788c-cb4d-4af4-8c63-b3a340cbfec3",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Indiana",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "8bc1466e-0a8a-403d-bcf2-536e7c2dff72",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Iowa",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "1d3e1648-bd8a-4a15-bd15-c0209149dbfb",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Michigan",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "9b35cd67-a466-4e91-ae92-b95f12cbbe92",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Wisconsin",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "63d6f089-900a-4f78-8f44-e76122fe3d07",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Housing Vacancies",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "e3b32337-fce9-4a67-9647-0ca8ea051cd8",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Texas Employment Data",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "2e0d4cc2-88c4-4bc7-8ef7-373b9340a382",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Cleveland Financial",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "78148d0f-d7b6-430e-a309-a68c2717adff",
+      "layer": "entity",
+      "type": "entity",
+      "name": "six",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "a4eb8aaf-741e-4dfd-8bb5-40b2749f0102",
+      "layer": "entity",
+      "type": "entity",
+      "name": "CFSI",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "03097ada-245f-4d60-9366-1c1cf302e0b3",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Swiss National Bank Monthly",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "7f0ed35c-86bb-40b5-b308-2b291344b6d4",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Swiss National Bank Historical Time Series",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "9cc5d0c3-8bb1-4fec-9a50-282ddd31c88e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Metro Area Employment",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "d9c8ae21-e12a-4b56-a360-886e8628a66e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Hours",
+      "entity_type": "TIME",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "0cdca916-db11-41dc-8680-3be91ccb6112",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The Bureau of Labor Statistics",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "686c6ad5-9685-4cb4-9686-9387e7b46d2e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "BLS",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 8
+    },
+    {
+      "id": "931e2717-ae01-45aa-8fd8-9778e0d4941a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "seasonally",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 8
+    },
+    {
+      "id": "c892dda4-bfbc-4540-9957-533c6d9a6d0a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Coin Services",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "22d85c79-10a8-47fe-9c78-9e9919f659b3",
+      "layer": "entity",
+      "type": "entity",
+      "name": "National Rates and Rate Caps - Monthly",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "5fd5ce7c-ffd6-4f72-b49c-6c1cc378de52",
+      "layer": "entity",
+      "type": "entity",
+      "name": "BIS Effective Exchange Rate Indices",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "c0c051b8-b260-4973-8d5f-060f3435239f",
+      "layer": "entity",
+      "type": "entity",
+      "name": "BIS",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "cef70564-e517-4fe5-950e-705ee83653d4",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Tech Pulse",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "82287478-61b4-4c23-8b57-d495620c9d34",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Federal Reserve Bank of San Francisco",
+      "entity_type": "ORG",
+      "subtype": "Central Bank",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "a006cb05-e9c9-4a98-a881-de75dcd05deb",
+      "layer": "entity",
+      "type": "entity",
+      "name": "IT",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "dbb03083-a320-425f-a0a4-8169148adfdb",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Empire State Manufacturing Survey",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "144db11b-4531-4c4e-8e58-26fe94a64c21",
+      "layer": "entity",
+      "type": "entity",
+      "name": "six months ahead",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "c46eff5d-9866-46c9-a3a8-271cf5bda894",
+      "layer": "entity",
+      "type": "entity",
+      "name": "April 2002",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "e9027e08-3760-477e-a3a2-40a1c0948e6f",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the first day of each month",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "4b7bd0c0-8641-4fcc-8ab2-a6c16b0f10a4",
+      "layer": "entity",
+      "type": "entity",
+      "name": "about 200",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "6fa80931-c995-4da2-9308-d30ef5517031",
+      "layer": "entity",
+      "type": "entity",
+      "name": "New York State",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "45d6b5ce-8234-499f-9f29-346cf033730b",
+      "layer": "entity",
+      "type": "entity",
+      "name": "About 100",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "fd7131be-6ef4-41e5-9eaf-751d19a37ee1",
+      "layer": "entity",
+      "type": "entity",
+      "name": "tenth",
+      "entity_type": "ORDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "66c3e5a9-77cf-4403-bd1b-d8a7ae22cd8f",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the fifteenth",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "26cfb3b5-8e5a-4531-b814-adcd39d328db",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Federal Reserve Bank of New York",
+      "entity_type": "ORG",
+      "subtype": "Central Bank",
+      "attributes": {},
+      "mention_count": 6
+    },
+    {
+      "id": "08d8a343-86d1-42da-a2e5-c37f786e8140",
+      "layer": "entity",
+      "type": "entity",
+      "name": "District",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "f1b95ce9-7d45-413f-9374-c66ef1648587",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Northern New Jersey",
+      "entity_type": "LOC",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "cb80f4dd-0be1-429f-9475-e4e23ce95bd0",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Fairfield County",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "443270a4-f612-4551-aaec-8695280f32b1",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Connecticut",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "fba9fe42-4d46-4c11-b6b5-214c3bce4efc",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Empire State Manufacturing Survey",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "e11e2bae-f93c-45c2-9226-991b990b59e8",
+      "layer": "entity",
+      "type": "entity",
+      "name": "January 2014",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "9a443a7c-d894-439c-99e7-f1b640480841",
+      "layer": "entity",
+      "type": "entity",
+      "name": "September of 2004",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "a52dab22-77bd-4e11-aa47-d6d3a9605425",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the first business day of each month",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "715cf884-78f9-4ed0-b67b-570450ab91cd",
+      "layer": "entity",
+      "type": "entity",
+      "name": "about 150",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "b1935049-dfec-4bc3-bca4-cf7f7dec9246",
+      "layer": "entity",
+      "type": "entity",
+      "name": "a typical month",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "2e62db48-5244-4945-a3c7-1d722d4df9b9",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the tenth of the month",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "4342f9bc-3687-405a-a8ac-779500545c3a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Dallas Fed",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "4606eec6-1e7a-454c-ad0e-d21f33606696",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Bureau of Economic Analysis",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "b60f6064-af18-4e4f-887e-af4a6d4da73e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "PCE",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "7c8c9f9d-3089-41ee-b6b1-a97fc39b8847",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Non-Financial Sector",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "a7dc5537-f750-4658-9536-2af79f7ea725",
+      "layer": "entity",
+      "type": "entity",
+      "name": "International Debt Securities",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "97f68d4f-2001-4036-9d54-cc5b42279ba2",
+      "layer": "entity",
+      "type": "entity",
+      "name": "National Association of Securities Dealers Automated Quotations",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "9a69c890-d2e4-4e73-bec0-4fc3962fc6d1",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the American Community Survey",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 28
+    },
+    {
+      "id": "15894cb9-6650-40f2-be51-c9d74ef04351",
+      "layer": "entity",
+      "type": "entity",
+      "name": "ACS",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 48
+    },
+    {
+      "id": "b023b026-380e-4407-8627-f4a39a2d7bb2",
+      "layer": "entity",
+      "type": "entity",
+      "name": "ACS 5-year",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 24
+    },
+    {
+      "id": "7f4f64a7-6735-4a00-88c3-40c40126bdca",
+      "layer": "entity",
+      "type": "entity",
+      "name": "60-month",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 24
+    },
+    {
+      "id": "88054edf-9537-413d-9d99-e8621b6f4532",
+      "layer": "entity",
+      "type": "entity",
+      "name": "5-year",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 24
+    },
+    {
+      "id": "c7841b44-5c73-4b2d-9237-bb8f80b51de8",
+      "layer": "entity",
+      "type": "entity",
+      "name": "year",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 24
+    },
+    {
+      "id": "8997b1fc-1231-433d-be42-f124f11784d1",
+      "layer": "entity",
+      "type": "entity",
+      "name": "multiyear",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 24
+    },
+    {
+      "id": "87eb3447-0b47-4018-aebf-1ff90c3343d0",
+      "layer": "entity",
+      "type": "entity",
+      "name": "consecutive years",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 24
+    },
+    {
+      "id": "f154fbac-300a-4b3d-b956-5b6286b78b70",
+      "layer": "entity",
+      "type": "entity",
+      "name": "overlapping years",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 24
+    },
+    {
+      "id": "f3b8d5b1-5239-45a9-a2da-23465d870e09",
+      "layer": "entity",
+      "type": "entity",
+      "name": "2010\u20132014",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 16
+    },
+    {
+      "id": "02485873-d737-438d-9be2-d2f3547f3764",
+      "layer": "entity",
+      "type": "entity",
+      "name": "2011\u20132015",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 16
+    },
+    {
+      "id": "576f3b25-8a4d-4d61-b325-8f6c43cdcfb6",
+      "layer": "entity",
+      "type": "entity",
+      "name": "years of multiyear",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 24
+    },
+    {
+      "id": "6ef06b14-bffd-4c28-bf5f-f1624c6e01b9",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Section 3: Understanding",
+      "entity_type": "LAW",
+      "subtype": "Regulation",
+      "attributes": {},
+      "mention_count": 20
+    },
+    {
+      "id": "7f0e4cc2-5b1a-43cd-b994-67856bc082cd",
+      "layer": "entity",
+      "type": "entity",
+      "name": "ACS General",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 24
+    },
+    {
+      "id": "9b5b5d01-c300-4407-81bc-14fc66a21551",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Handbook",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 24
+    },
+    {
+      "id": "a312027e-2e34-431f-91fd-2bfbcf8114d3",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Hourly Earnings",
+      "entity_type": "WORK_OF_ART",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "1e122709-85a7-465f-8d34-ca383f95bf7e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "one-quarter",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "200f140a-05de-4850-a208-c800964da93a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Hispanic",
+      "entity_type": "NORP",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "3a921124-0f7d-41b8-ba87-330dae88643c",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Latino",
+      "entity_type": "NORP",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "309f018a-8fca-4d7c-8d35-9c4ac57be46a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Chicago Fed Midwest Economy",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "b7942b74-7092-4a68-bfb2-96cb28f9c3ec",
+      "layer": "entity",
+      "type": "entity",
+      "name": "MEI",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "f09076d3-499b-488f-8c54-7c98e5390322",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Chicago Fed National",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "f356ae3e-b604-406e-a4bf-1542ed72e575",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Federal Reserve Board of Governors Labor Market Conditions",
+      "entity_type": "ORG",
+      "subtype": "Central Bank",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "bc982f54-aa9b-445b-be55-59c60506a61f",
+      "layer": "entity",
+      "type": "entity",
+      "name": "August 3, 2017",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "581ed60e-f116-4cce-8dd0-25318bdc014b",
+      "layer": "entity",
+      "type": "entity",
+      "name": "LMCI",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 8
+    },
+    {
+      "id": "8160a896-1202-4dd5-a9dd-4de8cf99d42f",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the July 7",
+      "entity_type": "EVENT",
+      "subtype": "Financial Event",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "9f450f2e-ccdb-496e-ad50-2bc859f3d4da",
+      "layer": "entity",
+      "type": "entity",
+      "name": "recent years",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "6634154d-3bb6-4154-8935-cd299d21ee2e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "hourly",
+      "entity_type": "TIME",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "9a75f7c8-2ff1-435b-941a-dc4d71a177c6",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Kansas City Fed Labor Market Conditions",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "b10e4b07-7525-42d9-baa6-aeb5c8393594",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The Kansas City Fed Labor Market Conditions",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "268b74dc-fd65-48e4-b10a-8e53f175a179",
+      "layer": "entity",
+      "type": "entity",
+      "name": "NYMEX",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "690bc123-bf42-44ac-93c0-7df2a98e6e99",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Henry Hub",
+      "entity_type": "FAC",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "d7dd62b7-648b-4037-93f7-36ec53ac404a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Louisiana",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "7afa827b-985a-47f1-8630-f2d9b33401d0",
+      "layer": "entity",
+      "type": "entity",
+      "name": "2:30 p.m.",
+      "entity_type": "TIME",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "1b9c1b5b-e0cb-47bd-9a9a-0b0973bcf92c",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the New York Mercantile Exchange",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "c1fc102f-0da6-44ac-985a-127a790d08c2",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Americans",
+      "entity_type": "NORP",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "c59765ad-cbc7-44cd-bdd5-16bd4f247940",
+      "layer": "entity",
+      "type": "entity",
+      "name": "62 years of age",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "0d1df437-93b1-466a-a80f-78831fbfbaff",
+      "layer": "entity",
+      "type": "entity",
+      "name": "SAIPE",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "98dbba3c-1c1b-4d7b-854f-9a7ad95737a2",
+      "layer": "entity",
+      "type": "entity",
+      "name": "decennial",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "4eccd1a2-6b4d-4de2-8e8f-70001964cceb",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Transportation Services",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "ed013fdd-6257-40cc-8eeb-50a2609dd518",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The Manufacturing Business Outlook Survey",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "e68a7c36-25f2-4701-9f73-4f5baa86c78e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Third Federal Reserve District",
+      "entity_type": "ORG",
+      "subtype": "Central Bank",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "ae3bf6ff-006b-4612-8667-69574e451050",
+      "layer": "entity",
+      "type": "entity",
+      "name": "working hours",
+      "entity_type": "TIME",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "1b584d7b-532f-4910-b13b-a53246ba9dee",
+      "layer": "entity",
+      "type": "entity",
+      "name": "May 1968",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "ce475048-9d5a-41bc-aee7-2ef404472e73",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Nonmanufacturing Business Outlook",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "138b9f52-0ad1-4ec8-bace-c6e3f2bb8e45",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The Nonmanufacturing Business Outlook Survey",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "f3aa849e-14a9-468a-99db-cd2541447c3a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the next six months",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "75b7974c-c2dd-4145-9d9e-9a4e429d567d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "March 2011",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "0e5a2d20-04e6-4fb2-9a1f-98917024b34d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Distant-Horizon Forward",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "b4b3147d-46e4-4232-be42-292cdfa0e9b8",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Federal Reserve Board",
+      "entity_type": "ORG",
+      "subtype": "Central Bank",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "7f8b071a-81c5-4465-9b95-4c3fc4e3b832",
+      "layer": "entity",
+      "type": "entity",
+      "name": "U.S. Treasury",
+      "entity_type": "ORG",
+      "subtype": "Government",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "9841622c-27b7-4d54-9fe2-96bb4d6ecbaa",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the middle of 2004",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "ccfc1512-b5c9-48a1-b4a0-d67387e033d7",
+      "layer": "entity",
+      "type": "entity",
+      "name": "about two-thirds",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "0cb463f7-4dad-42f6-9b2c-0d6bfc8c6df6",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Sector\n\n\n\nTrue",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "1a1b8f99-0b8d-4348-a949-3be6d44e82e2",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the US Census Bureau's",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "20fd7638-1da1-4d3d-bcae-c663fb200b73",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Foreign Trade Division",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "acf2944d-4e23-43ab-94a8-b2c9470f6cbb",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the District of Columbia",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "f4efe113-fe52-457b-a671-7a0a739507fc",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the U.S. Virgin Islands",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "a72e6dd1-fdd4-438f-940e-bc253255df69",
+      "layer": "entity",
+      "type": "entity",
+      "name": "U.S. International Investment Position\n\n\n\nTrue",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "b0e14dac-94e4-488b-be63-5aac9d4be306",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Quarterly Census of Employment",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "9092fb1b-96f7-4faf-af50-b69b566c9711",
+      "layer": "entity",
+      "type": "entity",
+      "name": "St. Louis Fed Price",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "bc2a6b2a-491c-4630-8219-13534f3c3def",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Asia",
+      "entity_type": "LOC",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "2a37a11e-2235-4dc4-858b-c6d77287d739",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Pacific Regional Economic Outlook",
+      "entity_type": "LOC",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "ba2d27d6-36d8-4f67-935b-4acd466b8ceb",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Pacific",
+      "entity_type": "LOC",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "63f74f0a-15df-418a-87cb-7be0b94fff06",
+      "layer": "entity",
+      "type": "entity",
+      "name": "APD",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "ff389257-d7fe-4da0-a3fe-454253d1df54",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Middle East",
+      "entity_type": "LOC",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "af845ebb-d725-4988-808f-e84d3c019c3b",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Central Asia Regional Economic Outlook",
+      "entity_type": "LOC",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "61cd27b6-4ffa-4368-99ad-91a4ab429f88",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Central Asia Department",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "96f6ca5f-8723-417e-a02e-371596a2b0d6",
+      "layer": "entity",
+      "type": "entity",
+      "name": "MCD",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "88ca1dc4-5b08-45bc-86af-0c820299830d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Afghanistan",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "9bb8ff89-3c93-4183-85b9-7b17c1ae0e1c",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Algeria",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "366de18a-e118-48c5-9562-022ca0dd54be",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Armenia",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "9633e749-d2de-4d25-a7c5-0429c0c3fdb5",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Azerbaijan",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "0c9abeb5-d7a4-4a5f-82e8-95b837a2f630",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Bahrain",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "6a3aba17-744c-4c7c-b14c-b132a3558f01",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Djibouti",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "6fc8fa8e-c6f1-4157-aaca-1dabcbf65545",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Egypt",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "1cc9d8ba-ce46-4b35-852d-d81fbbc05aa3",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Georgia",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "944ec3fd-7d90-4a49-9ee6-368979b5c117",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Iran",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "5bc9644f-16a0-427f-9e79-8eac7da69605",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Iraq",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "f731c865-729e-4022-a71d-260256ee076e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Jordan",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "fbadf00f-fa4c-4f40-aa54-c53248042f57",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Kazakhstan",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "bafe81de-54e5-4128-b556-a89ffcc0a305",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Kuwait",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "b858e747-efc7-489e-99cc-ea870d0a2170",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Kyrgyz Republic",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "ed511677-501f-4362-b3d6-76cd67cdbc79",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Lebanon",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "d80aaa06-a9b8-4185-967a-1d2fda1f3107",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Libya",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "7bb00fd0-cbd4-4165-b098-3963ed44f824",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Mauritania",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "d7772a94-0085-4dcb-95d8-9d323d35fc26",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Morocco",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "6c2bca09-dce6-4e97-b856-5088e2807f3c",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Oman",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "39edefad-3290-4cf8-a54e-e6c4da43c7e3",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Pakistan",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "37785e0c-c361-4beb-bfaa-c73df432dfd9",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Qatar",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "b923ae8f-1dcd-4e07-ade5-307703819a09",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Saudi Arabia",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "6bc48d3b-4670-4c79-a8f7-fd98948d4f9b",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Somalia",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "4d9a5297-e547-4855-91fd-8b2892ba832b",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Sudan",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "19e3284a-be93-4b36-8556-f19572a7f56a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Syria",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "c666f717-bb10-4eb0-85f3-6d3b3633b688",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Tajikistan",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "c178c2c1-6f16-4749-877a-8b1db48a9ea9",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Tunisia",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "7fc0df13-d023-4184-b53c-39fab8e99123",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Turkmenistan",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "417f4e70-deac-459e-aa38-6fa7fc653bd2",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the United Arab Emirates",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "7d5cb2cc-def6-4a1f-b730-861a69611dd3",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Uzbekistan",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "e3d0edca-06ff-4e42-89c7-cf5b9f8897cb",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the West Bank",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "dba8df31-29fa-4bbc-b245-04757ff80fef",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Gaza",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "4035e7a7-29e1-48a8-a93e-929263797480",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Yemen",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "97f0eed0-b6ef-4221-b599-0942f2228eb0",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Sub-Saharan Africa",
+      "entity_type": "LOC",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "98c38425-c2ee-4d09-add0-18a5d9f73d1b",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Africa",
+      "entity_type": "LOC",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "c1c4a157-5d34-4945-9fec-954468f9a73a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "REO",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "80872eeb-5dd4-447c-90e5-25100e8867a2",
+      "layer": "entity",
+      "type": "entity",
+      "name": "PPP",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "06a8bf60-12e5-4f8f-a604-90e147ecfb27",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The Financial Access Survey",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "1dbaff13-e91d-4771-acfd-d5e5c2d0ae84",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the G-20 Basic Set of Financial Inclusion",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "3fd58f47-f96a-492b-9e1b-6803911626f5",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the G-20 Leaders",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "e77ff78b-952c-4de4-8bc4-84cd602d2fe8",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Los Cabos Summit",
+      "entity_type": "FAC",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "764a396d-3e62-4e73-83f5-92a03f508c04",
+      "layer": "entity",
+      "type": "entity",
+      "name": "June 2012",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "8ca39e2f-456b-4cd1-9521-015dea547cd6",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Hornstein-Kudlyak-Lange Non-Employment",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "302df72d-50d1-46de-be19-184dbb610e64",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The Hornstein-Kudlyak-Lange Non-Employment",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "e5b9d034-5fce-4e00-8203-b8bb18014870",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Richmond Fed",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "b761b2f5-0260-4688-9436-2c5061e6d2e0",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Andreas Hornstein",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "2a9d8082-be6b-4160-9947-f1c7c8959cf3",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Marianna Kudlyak",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "adf10cd4-16ae-484c-9152-f67545cfdf65",
+      "layer": "entity",
+      "type": "entity",
+      "name": "McGill University",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "7c56c703-77b6-4857-bb88-8f84295f2a6d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Fabian Lange",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "ae3e4b16-8cc8-43d1-b6da-8a5d3d01257b",
+      "layer": "entity",
+      "type": "entity",
+      "name": "NEI",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "eb664c3e-f188-469a-a493-4237a8308706",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Chicago Fed Survey of Economic Conditions",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "8906c8c9-147a-4842-892f-ba9d622a2182",
+      "layer": "entity",
+      "type": "entity",
+      "name": "seven",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "b444bd7a-666d-47e6-90ab-46e42812f412",
+      "layer": "entity",
+      "type": "entity",
+      "name": "zero",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "d9f668ae-3a6e-4709-9d28-9af58a34d0f6",
+      "layer": "entity",
+      "type": "entity",
+      "name": "April 2022",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "7eba2814-4c86-4e8a-b8b9-5ac69979168c",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Chicago Fed Survey of Economic Conditions",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "f8dcc84a-586e-45d8-a1f6-11ea568c3ea1",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Chicago Fed Survey",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "07da5e35-6d0c-4d7b-b276-ce5efbc582ec",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Business Conditions",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "957445a6-82c5-4e69-9ec1-753350b89eb5",
+      "layer": "entity",
+      "type": "entity",
+      "name": "CFSBC",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "ec9ec6de-091d-4b8d-8a23-71baf80261b7",
+      "layer": "entity",
+      "type": "entity",
+      "name": "quarter",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "0b35ce0a-9204-4fdc-88a6-ef357c0fb101",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Texas Manufacturing Outlook",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "8f8617ab-c6ef-4fcd-9ea1-201deac6893e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The Texas Manufacturing Outlook",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "21910ce3-2d01-4b4e-b8f3-de61b9bda397",
+      "layer": "entity",
+      "type": "entity",
+      "name": "TMOS",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "3d0c6be6-9d37-4926-9757-8ea65efe259c",
+      "layer": "entity",
+      "type": "entity",
+      "name": "six months",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 6
+    },
+    {
+      "id": "d77b8616-0f5d-4c27-97d2-9bd82a4cab46",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Bank Funding Rate Data",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "f58e99b2-b457-487e-ab7c-3dd7df0b498b",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Texas Service Sector Outlook",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "7bcdb84e-f9cf-4129-a26e-c1c42ca36017",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The Texas Service Sector Outlook",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "cc38ec2d-474d-4768-be20-4d2a89dd0f1e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "About 230",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "b6c161a1-0e2f-4a21-9385-ee99a314f653",
+      "layer": "entity",
+      "type": "entity",
+      "name": "TSSOS",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 8
+    },
+    {
+      "id": "8256ec99-dbaa-4bcc-9574-ff55153d03ec",
+      "layer": "entity",
+      "type": "entity",
+      "name": "January 2007",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "62d10087-25e4-4a9f-8ed4-4e3f508075c4",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Texas Retail Outlook",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "fd1b1cd7-246d-4cd2-a68d-509024c8a07d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the middle of each month",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "b437ecba-b68c-47a5-9fe0-1446cd3375d0",
+      "layer": "entity",
+      "type": "entity",
+      "name": "seven business days",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "152c030b-7b6d-404d-b863-d9c6d8d0c1d2",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Texas",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "b307235b-a576-419e-a5cd-2120277e3b20",
+      "layer": "entity",
+      "type": "entity",
+      "name": "59 percent",
+      "entity_type": "PERCENT",
+      "subtype": "Rate",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "0f51d163-ce2f-4d88-a1a7-ca0cf4fc7d5b",
+      "layer": "entity",
+      "type": "entity",
+      "name": "7 million",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "27e3d1d3-e73a-4506-8bb4-e69f2ba578f7",
+      "layer": "entity",
+      "type": "entity",
+      "name": "12 percent",
+      "entity_type": "PERCENT",
+      "subtype": "Rate",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "c9ac6d46-4708-4e46-b9be-fe41f02af6be",
+      "layer": "entity",
+      "type": "entity",
+      "name": "1.6 million",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "589222a4-db3e-41ab-8add-2e83211ed470",
+      "layer": "entity",
+      "type": "entity",
+      "name": "TROS",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "5292a94d-485a-47f7-a4b8-f33e46c37ece",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Texas Retail Outlook",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "37f59d8e-f8b7-492a-8d11-b4d8ec1f2e38",
+      "layer": "entity",
+      "type": "entity",
+      "name": "U.S. State",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "ea83acc3-a933-473a-ad49-341c85a4bd6d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the most recent year",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "79bf8b7f-13fd-4426-9e5f-5e66ba797ac4",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the prior year'",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "5e941637-8066-4ce6-b10f-7a1fda7646df",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the U.S. Treasury Department",
+      "entity_type": "ORG",
+      "subtype": "Government",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "56b9b9dd-05aa-44c1-a423-aa5f5776de78",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Federal Reserve Bank",
+      "entity_type": "ORG",
+      "subtype": "Central Bank",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "e6b654a9-368f-42c0-b64b-56db775668a7",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Dallas",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "1877aece-3bf9-4295-9a91-106957f001b2",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The Federal Reserve Bank of Atlanta's",
+      "entity_type": "ORG",
+      "subtype": "Central Bank",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "49564fa2-9ee7-4482-9301-b40527b8e633",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Monetary Statistics",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "75aa1e41-07db-4603-8d10-86415b176c89",
+      "layer": "entity",
+      "type": "entity",
+      "name": "1914-1941",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "8dac325c-12c8-4a83-b881-05ba0666e498",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Annual Reports of the Board of Governors",
+      "entity_type": "WORK_OF_ART",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "1df06206-763f-4e62-87c3-77453d58d091",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Federal Reserve Bulletin",
+      "entity_type": "ORG",
+      "subtype": "Central Bank",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "1fa00f4a-887f-469f-be20-cdef5bf65521",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Millennium of Macroeconomic Data",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "25ab9def-be4a-4889-8ead-5f43f7ba9d69",
+      "layer": "entity",
+      "type": "entity",
+      "name": "UK",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "1c6061d7-b5c2-41e5-a3c4-f90e493cfd31",
+      "layer": "entity",
+      "type": "entity",
+      "name": "West Texas Intermediate",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "7acf54b2-4f48-4438-be4c-17275232c1d6",
+      "layer": "entity",
+      "type": "entity",
+      "name": "January 1946 through July 2013",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "c668437e-bf74-41b0-8e78-2b11309b1e70",
+      "layer": "entity",
+      "type": "entity",
+      "name": "August 2013",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "8ed61d95-6f72-47ef-9225-cd9490b6cd29",
+      "layer": "entity",
+      "type": "entity",
+      "name": "MCOILWTICO",
+      "entity_type": "LAW",
+      "subtype": "Regulation",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "708f280c-1e43-4bb6-a351-2bc73229ba69",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Retail Instalment Credit at Furniture and Household Appliance Stores",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "7bc2525e-8fe7-4ff9-afdb-92ef491955dd",
+      "layer": "entity",
+      "type": "entity",
+      "name": "County",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "44a0fc44-b567-4bb3-aae9-edfe110c4d55",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Puerto Rico Community",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "13c1e078-475b-42f9-a7f8-d9856360445c",
+      "layer": "entity",
+      "type": "entity",
+      "name": "1 year ago",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "1fdedd71-9b11-42ac-9755-999c4f7cb2dd",
+      "layer": "entity",
+      "type": "entity",
+      "name": "65,000",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "74e3240c-5088-4fce-b62c-b4138dd68f09",
+      "layer": "entity",
+      "type": "entity",
+      "name": "annually",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "3241de3f-e68f-4d15-83e0-68d1ff35738d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Three years of monthly",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "b64cf26f-1582-426c-b8c7-2eba607be41d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "20,000",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "9e44aa38-f3a3-49f0-89e9-08290c733579",
+      "layer": "entity",
+      "type": "entity",
+      "name": "five years",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "e429c5d7-52e8-4671-8e37-5fb9661e3fc2",
+      "layer": "entity",
+      "type": "entity",
+      "name": "less than 20,000",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "6c9568b2-c49a-4db3-ba63-c8aeacffa545",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the years 2005 through 2009",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "b2cc9963-6453-4f66-8431-4897f7002207",
+      "layer": "entity",
+      "type": "entity",
+      "name": "PRCS",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "4e33bb01-48be-4696-8de8-b8aec6b15f95",
+      "layer": "entity",
+      "type": "entity",
+      "name": "St. Louis Fed Economic News",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "2f26e83b-dc42-49dc-8467-0c7424357584",
+      "layer": "entity",
+      "type": "entity",
+      "name": "SOI",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "988a30c9-4806-40e2-abe0-a564d8c77661",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Metropolitan Areas",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "62d35b3d-3893-4a57-88e8-4920b573009b",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Real Personal Income, Real Per Capita Personal Income, Regional Price",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "03b6f4ae-9577-4c83-bd16-594a8e1cf9d1",
+      "layer": "entity",
+      "type": "entity",
+      "name": "two months or less",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "6eb78ed0-9cc5-486d-a930-4015b0ae2a9d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "single-year",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 8
+    },
+    {
+      "id": "8089dbac-1b49-4c40-a802-e23560fcda8d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "2010-2014",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 8
+    },
+    {
+      "id": "2adc8fad-d305-4448-b098-125e9fdcce99",
+      "layer": "entity",
+      "type": "entity",
+      "name": "2011-2015",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 8
+    },
+    {
+      "id": "f6e02bc0-04d3-47f1-a74f-287fbdef90bb",
+      "layer": "entity",
+      "type": "entity",
+      "name": "between the ages of",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "641e8746-3436-4066-9c10-478eb7d1dc5f",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Equifax Credit Quality",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "881f4952-cdb2-4c86-8b8c-f9c945c0bffa",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Equifax",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "d1b51155-94c5-4718-9ff2-0da2f74f1711",
+      "layer": "entity",
+      "type": "entity",
+      "name": "FBI",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "67328e42-b47c-4992-8d1e-283b92873592",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Uniform Crime Reporting",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "60cf5c24-1311-45bb-8096-06b2717415aa",
+      "layer": "entity",
+      "type": "entity",
+      "name": "four",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "a6e50e31-bbc4-470d-9500-fe017ef51496",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the UCR Program",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "9f0cf4b1-0253-48e0-bcfb-3fa075f06f5c",
+      "layer": "entity",
+      "type": "entity",
+      "name": "UCR",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "e426a2ff-28f7-443a-a902-1055daae2d43",
+      "layer": "entity",
+      "type": "entity",
+      "name": "18-years",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "e609acd8-729e-45fe-afb0-31b53877993d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "18-years of age",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "f5b63942-eaf5-4ce3-b89e-3710e2673c19",
+      "layer": "entity",
+      "type": "entity",
+      "name": "30 percent",
+      "entity_type": "PERCENT",
+      "subtype": "Rate",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "f01d5c8a-56e8-4fcf-8925-6213b6c4773b",
+      "layer": "entity",
+      "type": "entity",
+      "name": "30.0-34.9%",
+      "entity_type": "PERCENT",
+      "subtype": "Rate",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "d9719441-0d4d-417d-a483-b2e75cb612c8",
+      "layer": "entity",
+      "type": "entity",
+      "name": "35.0%",
+      "entity_type": "PERCENT",
+      "subtype": "Rate",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "2350c513-956c-4e20-ad27-ec75e164e628",
+      "layer": "entity",
+      "type": "entity",
+      "name": "DP04_0110E",
+      "entity_type": "NORP",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "01d0513f-d837-4f3b-9164-30dd4d607ea7",
+      "layer": "entity",
+      "type": "entity",
+      "name": "DP04_0136E",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "7b73bed8-2280-4c3b-973c-2754bb60c19b",
+      "layer": "entity",
+      "type": "entity",
+      "name": "12-month",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "64de8df6-e9fd-4a47-87c0-dcb7d7ab026c",
+      "layer": "entity",
+      "type": "entity",
+      "name": "20 percent",
+      "entity_type": "PERCENT",
+      "subtype": "Rate",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "0c53894a-8dab-4f36-9cb0-221865f98393",
+      "layer": "entity",
+      "type": "entity",
+      "name": "minutes",
+      "entity_type": "TIME",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "2e445025-9ffd-45ab-b12d-731f8533ae69",
+      "layer": "entity",
+      "type": "entity",
+      "name": "16-years old",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "21483b6b-b661-41e8-bbd5-e28c902e49f7",
+      "layer": "entity",
+      "type": "entity",
+      "name": "American Community",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "e709e46c-583a-4917-884f-7a3549edc83f",
+      "layer": "entity",
+      "type": "entity",
+      "name": "1,000",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "830a44e2-0d64-44b8-8050-02aae72edf0e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "medicare",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "101e002a-4825-4a84-a153-63e8aaae76cd",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Jahn",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "f45602e3-1f69-429e-bbf1-e4e371cd5293",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Schmid",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "2d6c4c7f-48df-42db-a5c8-b84f666fcb0d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Schrag",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "6ba50c61-66f9-4f62-b805-85cadaadb03b",
+      "layer": "entity",
+      "type": "entity",
+      "name": "U.S. Treasury-Owned Gold",
+      "entity_type": "ORG",
+      "subtype": "Government",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "750af579-7a38-4f42-b89c-bd62cda00726",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Moody's Daily Corporate Bond",
+      "entity_type": "ORG",
+      "subtype": "Corporate Bond",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "fa7ad03a-2a88-49dd-a719-dcd30ef0c31a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "DHI",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "24b7d01e-ec9e-4969-9106-6fb16c37822c",
+      "layer": "entity",
+      "type": "entity",
+      "name": "75 years of age",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "d9987131-5a02-41d1-b7bd-421c9c4fca95",
+      "layer": "entity",
+      "type": "entity",
+      "name": "100,000",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "ff34e339-3db0-4ae8-bfb9-ead8617c7ccf",
+      "layer": "entity",
+      "type": "entity",
+      "name": "CDC",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 8
+    },
+    {
+      "id": "61c92768-51a6-4131-b698-3cb55c3099a5",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Years",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "19787dfc-d3c7-4eca-83b2-b74e83dfc10e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Potential Life Loss",
+      "entity_type": "WORK_OF_ART",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "e9f91a4d-5421-4ac5-b8fa-61198405c41c",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the particular year",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "449b1bcb-a4fd-492d-b25c-3fb4692188ec",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Monthly Retail Trade",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "ab055bbf-052b-4686-80ae-d013a9395bcc",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Food Services",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "98124641-e29a-446d-9dd0-6cc36919d560",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the U.S. Bureau of Economic Analysis' Real Personal Income for States",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "22ff6335-69e3-4f13-ad09-6e0c8a6b79ea",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Coinbase",
+      "entity_type": "PRODUCT",
+      "subtype": "Cryptocurrency Exchange",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "b5821abf-5b1b-4297-aa12-f7c90c53d345",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Coinbase Cryptocurrencies",
+      "entity_type": "PERSON",
+      "subtype": "Cryptocurrency Exchange",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "71de3266-803f-468f-9693-7874735f7642",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Business Formation Statistics",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "5698101b-6f3a-4131-a95e-9126d5ffe1da",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Federal Reserve Bank of Atlanta",
+      "entity_type": "ORG",
+      "subtype": "Central Bank",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "efa8ba7f-f2fd-43a7-904d-86ff27b0ba3d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "University of Maryland",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "3c263d3f-c1ea-4ec8-8a3e-aef9a8e240f3",
+      "layer": "entity",
+      "type": "entity",
+      "name": "University of Notre Dame",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "eef098b3-c8ff-4825-bd15-ff613983936e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The Business Formation Statistics (BFS",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "0d969120-5f90-4caf-8e91-eba653b12059",
+      "layer": "entity",
+      "type": "entity",
+      "name": "BFS",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 8
+    },
+    {
+      "id": "fc427fdd-bc30-469a-92c1-1d4f56990ab9",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Business Application Series",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "da9fed0b-cea1-4c36-aeaf-03e4437abda5",
+      "layer": "entity",
+      "type": "entity",
+      "name": "EIN",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 8
+    },
+    {
+      "id": "68f388ba-87aa-48d8-aafa-bb516ba4ea76",
+      "layer": "entity",
+      "type": "entity",
+      "name": "July 2004",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "c1206d1a-08f4-497b-a4eb-d9457f9d5d56",
+      "layer": "entity",
+      "type": "entity",
+      "name": "two-digit",
+      "entity_type": "QUANTITY",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "673e26c3-3e86-4fb4-896b-4b250f3b8ecc",
+      "layer": "entity",
+      "type": "entity",
+      "name": "SS",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "c41a88c4-9bdd-46f0-9ea4-ad97554127bf",
+      "layer": "entity",
+      "type": "entity",
+      "name": "IRS",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "070a7d2d-ee1a-454d-949b-16be0cd0a707",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Labor Force Participation",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "b6659c1e-67af-455f-8f55-064bcf30106c",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The Distributional Financial Accounts",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "9b5a0e57-18d1-45cd-b622-3edc9891d0a1",
+      "layer": "entity",
+      "type": "entity",
+      "name": "1 percent",
+      "entity_type": "PERCENT",
+      "subtype": "Rate",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "392ac4fd-c656-4a99-b7a3-1f1c79bfcb22",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the next 9 percent",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "c548aabf-3134-4bf5-a4ce-186d73276d0b",
+      "layer": "entity",
+      "type": "entity",
+      "name": "90th",
+      "entity_type": "ORDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "f3b8f86f-cf68-4992-89a4-d965e0c7dea6",
+      "layer": "entity",
+      "type": "entity",
+      "name": "99th",
+      "entity_type": "ORDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "9205339f-f259-4f10-bd08-f376359ee904",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the next 40 percent",
+      "entity_type": "PERCENT",
+      "subtype": "Rate",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "ebbcba5c-4ae7-4f99-9441-e6a4f84daf16",
+      "layer": "entity",
+      "type": "entity",
+      "name": "50th",
+      "entity_type": "ORDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "1b4a1df9-0779-4af2-aa21-76a6c05c5f2e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "about 10 or 11 weeks",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "4eaa42b3-05d0-4413-a92b-1458257908a8",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the end of each quarter",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "a6d15ed6-883f-42d4-96f1-fe413b3a9f79",
+      "layer": "entity",
+      "type": "entity",
+      "name": "B",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "e5dd8b08-b470-4f65-83a5-7124b9bbdf01",
+      "layer": "entity",
+      "type": "entity",
+      "name": "State & Local Tax Revenue",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "080d0f22-7e3c-4be8-8f84-98347478b0f1",
+      "layer": "entity",
+      "type": "entity",
+      "name": "three-month",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "8ead7869-3fdb-482c-9a83-a0cac5881b61",
+      "layer": "entity",
+      "type": "entity",
+      "name": "0.50",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "78e9e7c2-12db-48f0-864d-077469d2d59c",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the previous 12 months",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "84d82950-c271-49b6-815f-ee4fb52c22ce",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the East Coast",
+      "entity_type": "LOC",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "0c77c3fa-a814-4dfc-afab-8bcd660f3b4c",
+      "layer": "entity",
+      "type": "entity",
+      "name": "New England",
+      "entity_type": "LOC",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "a45b73cc-7742-463b-91c7-fa4fb59d16e1",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the months",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "5e327178-c731-4ba3-b2d9-1bddaeffce2f",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The New England Textile Industry",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "e6fbfc44-903a-4079-925e-a493d3c74247",
+      "layer": "entity",
+      "type": "entity",
+      "name": "1825-60",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "5bd3f3ef-518b-475d-aa73-a78836365210",
+      "layer": "entity",
+      "type": "entity",
+      "name": "https://www.nber.org/chapters/c1569.pdf",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "c51cb939-9fb2-47ee-bab9-af614602ee62",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Domestic Auto and Truck Production\n\n\n\nTrue",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "f812a5f8-70f2-491d-8b51-f2456bb42721",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Energy-Related CO2 Emissions",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "07e134bb-1e82-4505-849c-09fa95b909df",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Housing Inventory Core Metrics",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "658d5fc4-e684-4094-8f98-17174da545f4",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Lewis-Mertens-Stock",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "c85d4fa1-e137-4374-a2dc-d24725b13184",
+      "layer": "entity",
+      "type": "entity",
+      "name": "WEI",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "b498bb4f-d152-45da-9e3f-ede911761c02",
+      "layer": "entity",
+      "type": "entity",
+      "name": "ten",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "70c1644a-e738-40cd-bbe5-2e7c2ee035fd",
+      "layer": "entity",
+      "type": "entity",
+      "name": "four-quarter",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "af359e95-8794-4d09-a2dd-0fc742445259",
+      "layer": "entity",
+      "type": "entity",
+      "name": "-2 percent",
+      "entity_type": "PERCENT",
+      "subtype": "Rate",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "018750b8-3a1d-4f91-8519-f5c22c8bd6f1",
+      "layer": "entity",
+      "type": "entity",
+      "name": "an entire quarter",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "c2006db1-6538-4c8a-95dc-72ef11c2970a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "2 percent",
+      "entity_type": "PERCENT",
+      "subtype": "Rate",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "8194f421-5177-4c27-b507-6e88278a19d4",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Rasmussen Consumer",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "63bf9acc-8ccd-4cf8-a936-2f9772d77e93",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Booth Financial Consulting",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "1c3f8ebf-b118-4a7b-a97a-79fa56431904",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Association of American Railroads",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "374917b7-c820-48e1-acd6-dc282f4a53a6",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the American Staffing Association",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "d4d543b0-38ee-4de3-bfe3-ba32aec79bec",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Haver Analytics",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "4649f392-8c77-4763-b313-d5293af6cdb4",
+      "layer": "entity",
+      "type": "entity",
+      "name": "year-over-year",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "7f4070b0-4259-43d7-8dec-e2d41d263ab4",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Lewis",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "9bc76527-73e2-4a9c-8325-69fe0676df38",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Mertens",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "51c2a7a5-8333-4e3d-ae49-63b4a8ba867c",
+      "layer": "entity",
+      "type": "entity",
+      "name": "U.S. Economic Activity",
+      "entity_type": "WORK_OF_ART",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "5d0b61a6-b066-411e-8cd7-19acf2e53f8b",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Early Weeks",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "db9660f5-c70c-4659-9e93-3b5dfc089b07",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Daniel Lewis",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "6c41a3ff-aa4b-4207-954c-e060f3e86276",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Karel Mertens",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "52139ca2-1aca-490d-98f4-9b231c335359",
+      "layer": "entity",
+      "type": "entity",
+      "name": "James Stock",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "c3083d84-631a-4e18-8a6e-7e3e4ae9e1bc",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Harold Hitchings Burbank",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "7b76a10e-bf7b-44fa-81b3-bb122d900e83",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Political Economy, Faculty of Arts and Sciences of",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "912dccab-784f-495b-9e2b-12c1effb14ae",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Harvard University",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "49274138-1695-4fb9-8e16-a12ed4309960",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Federal Open Market Committee",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "49e11d9c-aa00-415d-b94e-2409c82af1b9",
+      "layer": "entity",
+      "type": "entity",
+      "name": "SARS",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "a6ee77db-ecbe-486e-b152-e66e81331e0d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Weekly Business Formation Statistics",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "87b1ca5b-8ed1-4ccc-a84f-ac17962446f1",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The Business Application Series",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "f1538375-eddf-4a5d-9022-eb50c5eb942e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "State Unemployment Insurance Weekly",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "e7b170e4-e3a0-455b-bdfc-abf5e6bc2b93",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Economist Intelligence Unit",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "da49a7f2-d7e0-4049-91f8-ea91668df272",
+      "layer": "entity",
+      "type": "entity",
+      "name": "EIU",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "dc0ae76b-3bf1-4300-8bad-1a259f85777e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "WUI",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "698130be-ebad-40cf-942c-09f1bb01feb1",
+      "layer": "entity",
+      "type": "entity",
+      "name": "1,000,000",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "f167597f-1ad2-4771-a01a-fe150f833dc9",
+      "layer": "entity",
+      "type": "entity",
+      "name": "0.02 percent",
+      "entity_type": "PERCENT",
+      "subtype": "Rate",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "337446ba-a0d4-4b5f-8c25-c9635b3c91ee",
+      "layer": "entity",
+      "type": "entity",
+      "name": "about 10,000",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "816480b1-0ca8-4593-b05f-e415be421f75",
+      "layer": "entity",
+      "type": "entity",
+      "name": "about 2",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "27d522c7-b5b7-44bc-8355-b697bf848337",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the World Pandemic Uncertainty Index",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "53fd4cb5-9463-4853-9fe5-f0f1c79da82e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "one-third",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "c8e6a2f3-4d26-466d-a59a-2e45f07bdd32",
+      "layer": "entity",
+      "type": "entity",
+      "name": "OBMMI",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "c205588f-ab4c-436a-903b-507d453e89fa",
+      "layer": "entity",
+      "type": "entity",
+      "name": "February 1, 2020",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "731f5d8f-2bea-4f32-bd7f-1dbd8ea8378d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "7-day",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "73e52479-1461-4b81-a638-7f873c400446",
+      "layer": "entity",
+      "type": "entity",
+      "name": "January 2021",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "54d90a25-6d2c-40af-b048-47349d50f04a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Australia",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "5cb31c3b-cf6c-433f-b094-f65272ef45c9",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Canada",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "18c050c5-9027-4561-9ee3-9418ced3502c",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Germany",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "faf2aa66-c546-4d23-9496-91ce36d72514",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Ireland",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "747d902c-9234-43c6-93a5-d7c1c6ea3a89",
+      "layer": "entity",
+      "type": "entity",
+      "name": "France",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "2b75db66-26f0-4dd6-9060-4ca7b44d402f",
+      "layer": "entity",
+      "type": "entity",
+      "name": "U.K.",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "5efc38c7-0576-4ae9-a5ca-9dc8ab319bdd",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Indeed Data",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "cc444f5e-d4eb-4830-856e-517c0d097520",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Indeed Data",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "fdac6a35-64a1-4bcb-bf2c-057debfa752e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "K",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "b21cbc94-9172-49ab-bfff-2b7d3943a9b8",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The Monthly State Retail Sales",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "b3bd6be5-9f5a-4307-9f4e-538591dbf7e2",
+      "layer": "entity",
+      "type": "entity",
+      "name": "MSRS",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "804e8ac4-cbf1-4e6b-ae38-6fc6b3352bfb",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Census Bureau's",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "10cc1970-6497-46d7-ba0b-8ffe19b6652d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Total Retail Sales",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "5526cc7e-3349-456f-9515-413c1a393b82",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Nonstore",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "c50c2866-ec6d-487d-9499-081dddfdf3ca",
+      "layer": "entity",
+      "type": "entity",
+      "name": "North American Industry Classification System",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "5b4dd42a-d2c7-4e8e-b561-a6128dfd69e8",
+      "layer": "entity",
+      "type": "entity",
+      "name": "January 2019",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "3b96a416-cd15-4c02-9303-b4d5f6975289",
+      "layer": "entity",
+      "type": "entity",
+      "name": "CE",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "3149d0e0-fc8c-4e5b-8576-81947ac7a97c",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Education, Entertainment, Food, Healthcare, Housing, Miscellaneous",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "ffa494e5-2e9e-4492-82be-3f9866385d12",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Transportation",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "ec39fe03-ed6e-44c8-9289-3c72d56860ac",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The Federal Reserve System's",
+      "entity_type": "ORG",
+      "subtype": "Central Bank",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "1947a5f0-dfb7-4748-a9ef-3308332dabee",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Weekly Balance Sheet",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "f0b3fb27-f877-404b-a1fa-8b9c621b8a1a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "FDIC Quarterly Banking",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "dcc1cc15-ac92-4593-92e8-2e12ecbd9b6d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "FDIC",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "008f6118-8552-4b22-b10d-d2686f753a1a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "SOFR",
+      "entity_type": "ORG",
+      "subtype": "Interest Rate Benchmark",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "488ab5f4-e6fb-4bd8-8b1a-1e15fba82abd",
+      "layer": "entity",
+      "type": "entity",
+      "name": "30-",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "6e11086a-d0b5-49de-9c4c-6895189b9fdb",
+      "layer": "entity",
+      "type": "entity",
+      "name": "90-",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "b2501f84-3a76-4d82-a21b-5c73b7bc3a36",
+      "layer": "entity",
+      "type": "entity",
+      "name": "180-calendar day",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "0a2d9c7f-9618-4c39-8c24-6b7c93e97c26",
+      "layer": "entity",
+      "type": "entity",
+      "name": "April 2, 2018",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "a3984089-6650-452d-87a8-739d0c6976a6",
+      "layer": "entity",
+      "type": "entity",
+      "name": "ECB",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "c024c378-4e7e-4005-aa7b-1bbc52f46873",
+      "layer": "entity",
+      "type": "entity",
+      "name": "CBSA",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "09639b15-1205-4217-b465-5a58a68b369e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "https://www.uspto.gov/web/offices/ac/ido/oeip/taf/countyall/explan_countyall.htm",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "4b87e507-d3df-44c2-bcec-f6b24fda2316",
+      "layer": "entity",
+      "type": "entity",
+      "name": "United States",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "c25a94d2-8e47-43ed-ba0b-0af68c84c563",
+      "layer": "entity",
+      "type": "entity",
+      "name": "https://www.uspto.gov/web/offices/ac/ido/oeip/taf/brochure.htm",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "1f1eb897-4d4b-4857-afb7-9650233199a3",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The Brave-Butters-Kelley",
+      "entity_type": "WORK_OF_ART",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "6823cb0e-9d42-4001-acd1-75c238905cc2",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Federal Reserve Bank of Chicago",
+      "entity_type": "ORG",
+      "subtype": "Central Bank",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "28069c8e-f83e-492a-a425-e7f0a65eeb63",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Indiana Business Research Center",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "e44b53fe-e457-4446-bd47-3ceb5088d60b",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Kelley School of Business at",
+      "entity_type": "FAC",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "e367b3d2-e82a-4594-b57a-95cc43a3b9af",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Indiana University",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "c10482c1-15f2-4d9f-a550-7ce9c1aa011f",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The BBK Coincident",
+      "entity_type": "PRODUCT",
+      "subtype": "Financial Product",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "545c851b-1671-4453-9bcf-1d85ec2a922e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "BBK",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "45eae2ac-6fd3-450b-a1f8-358f163859a7",
+      "layer": "entity",
+      "type": "entity",
+      "name": "BBKI",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "8869b599-785e-40c8-9844-1e57444ad027",
+      "layer": "entity",
+      "type": "entity",
+      "name": "1930s-era",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "2f66f7ee-c0d3-4942-9331-0e64984cb7ee",
+      "layer": "entity",
+      "type": "entity",
+      "name": "HOLC",
+      "entity_type": "PRODUCT",
+      "subtype": "Financial Product",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "443d876f-b5a3-4db5-80ed-c1526ad2c31b",
+      "layer": "entity",
+      "type": "entity",
+      "name": "U.S. Census",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "ffb36216-8216-41bf-a3eb-88a36459de8a",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Home Owners Loan Corporation",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "beb6b818-aea6-4742-ae02-a1cf3f8ac8f7",
+      "layer": "entity",
+      "type": "entity",
+      "name": "London",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "f48a0d7c-c7d5-4f98-95ed-10928d840931",
+      "layer": "entity",
+      "type": "entity",
+      "name": "SONIA",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "398cc5a5-ddbb-4cf9-b278-37bdeec42a68",
+      "layer": "entity",
+      "type": "entity",
+      "name": "four decimal",
+      "entity_type": "QUANTITY",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "a3a8285f-61c9-477f-ab76-e1d137f7a2f2",
+      "layer": "entity",
+      "type": "entity",
+      "name": "50 per cent",
+      "entity_type": "MONEY",
+      "subtype": "Currency",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "3b3af2d0-4c57-4d68-8d98-3050c58d2b41",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Chicago Fed Advance Retail Trade",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "58f52238-8cb6-46f8-b1a7-8f8a394faaaf",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Overnight",
+      "entity_type": "TIME",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "20c86a31-2618-4f2f-b5ae-65f9cde4d59e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "EONIA",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "2f0334d4-9aa0-4b86-9c18-dd7bc696571f",
+      "layer": "entity",
+      "type": "entity",
+      "name": "TARGET2",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "e2953578-1173-4912-9a2f-fdbf013e2855",
+      "layer": "entity",
+      "type": "entity",
+      "name": "STR",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "b1f0db66-4ce0-4f90-870f-58bfadec25b9",
+      "layer": "entity",
+      "type": "entity",
+      "name": "T",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "54934c03-c517-4ce9-8999-409b1db40654",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Zillow Home Value",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "3a457913-b514-4df4-9e18-49453955d338",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Zillow",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "b5483903-77df-4daa-8920-1b4a3456824b",
+      "layer": "entity",
+      "type": "entity",
+      "name": "ZHVI",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "4dce244a-6f87-48a9-badf-05768d7f4642",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Zillow Home Value",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "176d1586-8253-4fc7-a7e6-7b6f81cb7a8b",
+      "layer": "entity",
+      "type": "entity",
+      "name": "ZIP",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "87bb9119-4c70-46ae-8b9f-6d4bb0830bb4",
+      "layer": "entity",
+      "type": "entity",
+      "name": "American",
+      "entity_type": "NORP",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "e41c70c6-6a6a-4084-8103-7c09afb7f8d7",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the American Financial Exchange",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "238c345e-e8c4-4555-a17e-c6f7794fd4ba",
+      "layer": "entity",
+      "type": "entity",
+      "name": "AFX",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "525c5577-565b-486a-9cf8-c5b800fd605e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "thousands",
+      "entity_type": "CARDINAL",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "dc8c87d1-912d-4a75-8165-ec4af2cab523",
+      "layer": "entity",
+      "type": "entity",
+      "name": "America",
+      "entity_type": "GPE",
+      "subtype": "Country",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "52310bf8-4b22-4148-91d4-20cfb84311c2",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Community Bank",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "fe167ac4-2c07-4241-bf7e-7590303d1832",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The Community Bank",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "1889f3b1-a20c-4b14-af5d-28b5e28d3934",
+      "layer": "entity",
+      "type": "entity",
+      "name": "SCOOS",
+      "entity_type": "LOC",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 4
+    },
+    {
+      "id": "deed09e2-7938-40fc-a613-b8e655df441d",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Board of Governor\u2019s",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "e3bae7a2-1484-4541-9004-9f1a2421a080",
+      "layer": "entity",
+      "type": "entity",
+      "name": "OTC",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "2f8c01ce-7cb9-49f5-9279-62572fb6d90f",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The Underlying Inflation Gauge",
+      "entity_type": "LAW",
+      "subtype": "Regulation",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "39681770-1e58-4c52-bec9-869fedd32fea",
+      "layer": "entity",
+      "type": "entity",
+      "name": "UIG",
+      "entity_type": "TICKER",
+      "subtype": "Stock Ticker",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "96b62665-aae6-4805-8c7f-15833c0c62ce",
+      "layer": "entity",
+      "type": "entity",
+      "name": "The Atlanta Fed&#39;s Wage Growth Tracker",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "4f8b55fc-23bc-4a03-beb4-70f6e9386481",
+      "layer": "entity",
+      "type": "entity",
+      "name": "12 months",
+      "entity_type": "DATE",
+      "subtype": "Other",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "a7c43755-e316-44ce-8e27-8148046c528e",
+      "layer": "entity",
+      "type": "entity",
+      "name": "the Federal Reserve Bank of Atlanta",
+      "entity_type": "ORG",
+      "subtype": "Central Bank",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "cf2da157-8606-420f-a887-45781d9c5b04",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Wage Growth Tracker",
+      "entity_type": "ORG",
+      "subtype": "Company",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "e883c124-8152-49a2-91ce-513c0b0b5aa7",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Fujita",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "efbf67e5-a28c-4412-9eac-4c7528c9724b",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Moscarini",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 2
+    },
+    {
+      "id": "9f2bf3ca-517e-4f79-ac59-9a2eb4d082da",
+      "layer": "entity",
+      "type": "entity",
+      "name": "Postel-Vinay Employer-to-Employer Transition Probability\n\n\n\nTrue",
+      "entity_type": "PERSON",
+      "subtype": "Person",
+      "attributes": {},
+      "mention_count": 2
+    }
+  ],
+  "edges": [
+    {
+      "source": "cb984bc2-6301-4f9f-ab39-f202bf0c5569",
+      "target": "5da8cf79-f8ed-436f-9bf0-0e17169fc3c3",
+      "key": "0",
+      "layer": "entity",
+      "id": "9746ac9a-fee2-47ca-b3ab-c635f14284da",
+      "type": "contact",
+      "weight": 0.8,
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "source": "cb984bc2-6301-4f9f-ab39-f202bf0c5569",
+      "target": "7b71bf29-12e7-4309-b0a6-e6aaf1885347",
+      "key": "0",
+      "layer": "entity",
+      "id": "fbdf5ff5-4214-4ca3-ac05-ac4db519932d",
+      "type": "conduct",
+      "weight": 0.8,
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "source": "cb984bc2-6301-4f9f-ab39-f202bf0c5569",
+      "target": "88ca1dc4-5b08-45bc-86af-0c820299830d",
+      "key": "0",
+      "layer": "entity",
+      "id": "118f3c3a-305f-46b8-b326-44bdc43ba665",
+      "type": "comprise",
+      "weight": 0.8,
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "source": "2152f912-2a05-4503-a49e-332285738601",
+      "target": "11830d08-ea20-4357-9256-e3cf05c0a164",
+      "key": "0",
+      "layer": "entity",
+      "id": "4eaa3607-82d8-4e16-8d2e-d408b18a3ef2",
+      "type": "identify",
+      "weight": 0.8,
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "source": "cf8bf955-12a6-4e83-aea3-a0b3494306fd",
+      "target": "11830d08-ea20-4357-9256-e3cf05c0a164",
+      "key": "0",
+      "layer": "entity",
+      "id": "0503c1cd-1eea-4ccb-87c3-8c987ce79f31",
+      "type": "identify",
+      "weight": 0.8,
+      "attributes": {},
+      "mention_count": 1
+    },
+    {
+      "source": "ff389257-d7fe-4da0-a3fe-454253d1df54",
+      "target": "88ca1dc4-5b08-45bc-86af-0c820299830d",
+      "key": "0",
+      "layer": "entity",
+      "id": "d514c8cd-636a-4659-a9b9-18bc6bd8de76",
+      "type": "comprise",
+      "weight": 0.8,
+      "attributes": {},
+      "mention_count": 1
+    }
+  ]
+}

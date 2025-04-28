@@ -1,0 +1,275 @@
+{% extends "layout.html" %}
+
+{% block title %}Dashboard{% endblock %}
+
+{% block content %}
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <h1 class="mb-4">Financial Risk Knowledge Graph Dashboard</h1>
+                <p class="lead">
+                    This system analyzes financial news from March 9 - April 4, 2025 to model risk evolution and transmission
+                    using a three-layer knowledge graph architecture.
+                </p>
+                
+                <!-- Action buttons -->
+                <div class="mb-3">
+                    <form action="/process-all" method="post" class="d-inline">
+                        <button type="submit" class="btn btn-primary me-2">
+                            <i class="fas fa-sync-alt me-1"></i> Process All Data
+                        </button>
+                    </form>
+                    <a href="/graph" class="btn btn-outline-info me-2">
+                        <i class="fas fa-network-wired me-1"></i> View Knowledge Graph
+                    </a>
+                    <a href="/risk-analysis" class="btn btn-outline-warning">
+                        <i class="fas fa-exclamation-triangle me-1"></i> Risk Analysis
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Statistics overview -->
+<div class="row mb-4">
+    <div class="col-md-3 mb-3">
+        <div class="card stats-card">
+            <div class="card-body">
+                <div class="stat-value">{{ stats.news_count }}</div>
+                <div class="stat-label">
+                    <i class="far fa-newspaper me-1"></i> News Articles
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card stats-card">
+            <div class="card-body">
+                <div class="stat-value text-warning">{{ stats.entity_count }}</div>
+                <div class="stat-label">
+                    <i class="fas fa-building me-1"></i> Entities
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card stats-card">
+            <div class="card-body">
+                <div class="stat-value text-orange">{{ stats.event_count }}</div>
+                <div class="stat-label">
+                    <i class="fas fa-bolt me-1"></i> Events
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="col-md-3 mb-3">
+        <div class="card stats-card">
+            <div class="card-body">
+                <div class="stat-value text-danger">{{ stats.risk_count }}</div>
+                <div class="stat-label">
+                    <i class="fas fa-exclamation-triangle me-1"></i> Risks
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mb-4">
+    <!-- Top Entities -->
+    <div class="col-md-6 mb-4">
+        <div class="card entity-card">
+            <div class="card-header">
+                <i class="fas fa-building me-1"></i> Top Entities
+            </div>
+            <div class="card-body">
+                {% if top_entities %}
+                <div class="table-responsive">
+                    <table class="table table-sm">
+                        <thead>
+                            <tr>
+                                <th>Entity</th>
+                                <th>Type</th>
+                                <th>Mentions</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for entity in top_entities %}
+                            <tr>
+                                <td>{{ entity.name }}</td>
+                                <td>{{ entity.subtype if entity.subtype else entity.type }}</td>
+                                <td>{{ entity.mentions|length }}</td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% else %}
+                <div class="alert alert-secondary">
+                    No entities found. Process data to extract entities from news.
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    
+    <!-- Recent Events -->
+    <div class="col-md-6 mb-4">
+        <div class="card event-card">
+            <div class="card-header">
+                <i class="fas fa-bolt me-1"></i> Recent Events
+            </div>
+            <div class="card-body">
+                {% if recent_events %}
+                <div class="list-group">
+                    {% for event in recent_events %}
+                    <div class="list-group-item bg-transparent">
+                        <div class="d-flex w-100 justify-content-between">
+                            <h5 class="mb-1">{{ event.title }}</h5>
+                            <small>{{ event.event_date.strftime('%b %d') }}</small>
+                        </div>
+                        <p class="mb-1 text-truncate">{{ event.description }}</p>
+                        <small>
+                            <span class="event-label">{{ event.event_type.replace('_', ' ').title() }}</span>
+                            <span class="ms-2">{{ event.entities|length }} entities</span>
+                        </small>
+                    </div>
+                    {% endfor %}
+                </div>
+                {% else %}
+                <div class="alert alert-secondary">
+                    No events found. Process data to model events from news.
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="row mb-4">
+    <!-- Top Risks -->
+    <div class="col-md-6 mb-4">
+        <div class="card risk-card">
+            <div class="card-header">
+                <i class="fas fa-exclamation-triangle me-1"></i> Top Risks
+            </div>
+            <div class="card-body">
+                {% if top_risks %}
+                <div class="table-responsive">
+                    <table class="table table-sm">
+                        <thead>
+                            <tr>
+                                <th>Risk</th>
+                                <th>Type</th>
+                                <th>Severity</th>
+                                <th>Likelihood</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            {% for risk in top_risks %}
+                            <tr>
+                                <td>{{ risk.title }}</td>
+                                <td>{{ risk.risk_type.replace(' Event', '') }}</td>
+                                <td>
+                                    <div class="progress" style="height: 10px;">
+                                        <div class="progress-bar bg-danger" role="progressbar" 
+                                             style="width: {{ risk.severity * 20 }}%;" 
+                                             aria-valuenow="{{ risk.severity }}" aria-valuemin="0" aria-valuemax="5">
+                                        </div>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="progress" style="height: 10px;">
+                                        <div class="progress-bar bg-warning" role="progressbar" 
+                                             style="width: {{ risk.likelihood * 100 }}%;" 
+                                             aria-valuenow="{{ risk.likelihood }}" aria-valuemin="0" aria-valuemax="1">
+                                        </div>
+                                    </div>
+                                </td>
+                            </tr>
+                            {% endfor %}
+                        </tbody>
+                    </table>
+                </div>
+                {% else %}
+                <div class="alert alert-secondary">
+                    No risks found. Process data to identify risks from events.
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+    
+    <!-- Events Timeline -->
+    <div class="col-md-6 mb-4">
+        <div class="card">
+            <div class="card-header">
+                <i class="fas fa-calendar-alt me-1"></i> Events Timeline
+            </div>
+            <div class="card-body">
+                {% if recent_events %}
+                <div id="timeline-chart"></div>
+                {% else %}
+                <div class="alert alert-secondary">
+                    No events found. Process data to generate timeline.
+                </div>
+                {% endif %}
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Knowledge Graph Preview -->
+<div class="row mb-4">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-header">
+                <i class="fas fa-project-diagram me-1"></i> Knowledge Graph Preview
+            </div>
+            <div class="card-body">
+                <div id="graph-preview" style="height: 400px; background-color: var(--graph-bg); border-radius: 5px;"></div>
+                <div class="text-center mt-3">
+                    <a href="/graph" class="btn btn-outline-primary">View Full Knowledge Graph</a>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block scripts %}
+<script src="{{ url_for('static', filename='js/dashboard.js') }}"></script>
+<script>
+    // Initialize timeline if events exist
+    {% if recent_events %}
+    const timelineData = [
+        {% for event in recent_events %}
+        {
+            id: "{{ event.id }}",
+            title: "{{ event.title }}",
+            content: "{{ event.description }}",
+            type: "{{ event.event_type }}",
+            start: "{{ event.event_date.isoformat() }}"
+        }{% if not loop.last %},{% endif %}
+        {% endfor %}
+    ];
+    
+    document.addEventListener('DOMContentLoaded', function() {
+        initializeTimeline('timeline-chart', timelineData);
+        
+        // Fetch preview graph data
+        fetch('/api/get-graph-data?layer=all')
+            .then(response => response.json())
+            .then(data => {
+                initializeGraphPreview('graph-preview', data);
+            })
+            .catch(error => {
+                console.error('Error fetching graph data:', error);
+                document.getElementById('graph-preview').innerHTML = 
+                    '<div class="alert alert-danger">Error loading graph preview</div>';
+            });
+    });
+    {% endif %}
+</script>
+{% endblock %}

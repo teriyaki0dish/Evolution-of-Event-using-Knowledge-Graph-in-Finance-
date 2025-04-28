@@ -1,0 +1,278 @@
+{
+  "title": "Financial Risk Ontology",
+  "description": "A specialized ontology for financial risks based on the FIBO+SEM+ABC methodology",
+  "version": "1.0",
+  "classes": [
+    {
+      "id": "Risk",
+      "label": "Risk",
+      "description": "Base class for all financial risks",
+      "subclasses": [
+        {
+          "id": "MarketRisk",
+          "label": "Market Risk",
+          "description": "Risk arising from movements in market prices",
+          "subclasses": [
+            {
+              "id": "InterestRateRisk",
+              "label": "Interest Rate Risk",
+              "description": "Risk arising from changes in interest rates"
+            },
+            {
+              "id": "EquityRisk",
+              "label": "Equity Risk",
+              "description": "Risk arising from changes in equity prices"
+            },
+            {
+              "id": "CurrencyRisk",
+              "label": "Currency Risk",
+              "description": "Risk arising from changes in exchange rates"
+            },
+            {
+              "id": "CommodityRisk",
+              "label": "Commodity Risk",
+              "description": "Risk arising from changes in commodity prices"
+            },
+            {
+              "id": "VolatilityRisk",
+              "label": "Volatility Risk",
+              "description": "Risk arising from changes in market volatility"
+            }
+          ]
+        },
+        {
+          "id": "CreditRisk",
+          "label": "Credit Risk",
+          "description": "Risk arising from the possibility of default by borrowers",
+          "subclasses": [
+            {
+              "id": "DefaultRisk",
+              "label": "Default Risk",
+              "description": "Risk of a borrower failing to make required payments"
+            },
+            {
+              "id": "CounterpartyRisk",
+              "label": "Counterparty Risk",
+              "description": "Risk that a counterparty will not fulfill its contractual obligations"
+            },
+            {
+              "id": "ConcentrationRisk",
+              "label": "Concentration Risk",
+              "description": "Risk arising from concentrated exposure to a single entity or group"
+            },
+            {
+              "id": "SovereignRisk",
+              "label": "Sovereign Risk",
+              "description": "Risk of a government defaulting on its obligations"
+            }
+          ]
+        },
+        {
+          "id": "LiquidityRisk",
+          "label": "Liquidity Risk",
+          "description": "Risk arising from inability to meet cash flow obligations",
+          "subclasses": [
+            {
+              "id": "FundingLiquidityRisk",
+              "label": "Funding Liquidity Risk",
+              "description": "Risk of being unable to meet financial obligations when due"
+            },
+            {
+              "id": "MarketLiquidityRisk",
+              "label": "Market Liquidity Risk",
+              "description": "Risk of being unable to sell assets without significant loss"
+            },
+            {
+              "id": "AssetLiabilityMismatchRisk",
+              "label": "Asset-Liability Mismatch Risk",
+              "description": "Risk arising from differences in timing of cash flows"
+            }
+          ]
+        },
+        {
+          "id": "OperationalRisk",
+          "label": "Operational Risk",
+          "description": "Risk arising from inadequate or failed internal processes, people, and systems",
+          "subclasses": [
+            {
+              "id": "ProcessRisk",
+              "label": "Process Risk",
+              "description": "Risk arising from inadequate or failed processes"
+            },
+            {
+              "id": "PeopleRisk",
+              "label": "People Risk",
+              "description": "Risk arising from human error or misconduct"
+            },
+            {
+              "id": "SystemRisk",
+              "label": "System Risk",
+              "description": "Risk arising from technology failures"
+            },
+            {
+              "id": "ExternalEventRisk",
+              "label": "External Event Risk",
+              "description": "Risk arising from external events"
+            },
+            {
+              "id": "FraudRisk",
+              "label": "Fraud Risk",
+              "description": "Risk arising from fraudulent activities"
+            }
+          ]
+        },
+        {
+          "id": "RegulatoryRisk",
+          "label": "Regulatory Risk",
+          "description": "Risk arising from changes in regulations or non-compliance",
+          "subclasses": [
+            {
+              "id": "ComplianceRisk",
+              "label": "Compliance Risk",
+              "description": "Risk of non-compliance with laws and regulations"
+            },
+            {
+              "id": "LegalRisk",
+              "label": "Legal Risk",
+              "description": "Risk arising from legal actions or uncertainty"
+            },
+            {
+              "id": "RegulatoryChangeRisk",
+              "label": "Regulatory Change Risk",
+              "description": "Risk arising from changes in regulations"
+            }
+          ]
+        },
+        {
+          "id": "ReputationRisk",
+          "label": "Reputation Risk",
+          "description": "Risk of loss due to damage to reputation",
+          "subclasses": [
+            {
+              "id": "BrandRisk",
+              "label": "Brand Risk",
+              "description": "Risk of damage to brand value"
+            },
+            {
+              "id": "PublicRelationsRisk",
+              "label": "Public Relations Risk",
+              "description": "Risk arising from negative public perception"
+            },
+            {
+              "id": "StakeholderTrustRisk",
+              "label": "Stakeholder Trust Risk",
+              "description": "Risk of loss of trust from stakeholders"
+            }
+          ]
+        },
+        {
+          "id": "StrategicRisk",
+          "label": "Strategic Risk",
+          "description": "Risk associated with strategic decisions",
+          "subclasses": [
+            {
+              "id": "BusinessModelRisk",
+              "label": "Business Model Risk",
+              "description": "Risk arising from flaws in business model"
+            },
+            {
+              "id": "CompetitiveRisk",
+              "label": "Competitive Risk",
+              "description": "Risk arising from competitive pressures"
+            },
+            {
+              "id": "DisruptionRisk",
+              "label": "Disruption Risk",
+              "description": "Risk arising from disruptive innovations"
+            },
+            {
+              "id": "MergerAcquisitionRisk",
+              "label": "Merger & Acquisition Risk",
+              "description": "Risk arising from M&A activities"
+            }
+          ]
+        },
+        {
+          "id": "SystemicRisk",
+          "label": "Systemic Risk",
+          "description": "Risk affecting the entire financial system",
+          "subclasses": [
+            {
+              "id": "FinancialContagionRisk",
+              "label": "Financial Contagion Risk",
+              "description": "Risk of financial distress spreading through the system"
+            },
+            {
+              "id": "CorrelatedFailureRisk",
+              "label": "Correlated Failure Risk",
+              "description": "Risk of multiple institutions failing simultaneously"
+            },
+            {
+              "id": "MarketInfrastructureRisk",
+              "label": "Market Infrastructure Risk",
+              "description": "Risk arising from failures in market infrastructure"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "relationships": [
+    {
+      "id": "leads_to",
+      "label": "Leads To",
+      "description": "Indicates that one risk leads to another",
+      "domain": "Risk",
+      "range": "Risk"
+    },
+    {
+      "id": "impacts",
+      "label": "Impacts",
+      "description": "Indicates that a risk impacts a financial entity",
+      "domain": "Risk",
+      "range": "FinancialEntity"
+    },
+    {
+      "id": "is_triggered_by",
+      "label": "Is Triggered By",
+      "description": "Indicates that a risk is triggered by an event",
+      "domain": "Risk",
+      "range": "Event"
+    },
+    {
+      "id": "contributes_to",
+      "label": "Contributes To",
+      "description": "Indicates that one risk contributes to another",
+      "domain": "Risk",
+      "range": "Risk"
+    },
+    {
+      "id": "is_mitigated_by",
+      "label": "Is Mitigated By",
+      "description": "Indicates that a risk is mitigated by a measure",
+      "domain": "Risk",
+      "range": "RiskMitigationMeasure"
+    },
+    {
+      "id": "has_severity",
+      "label": "Has Severity",
+      "description": "Indicates the severity of a risk",
+      "domain": "Risk",
+      "range": "SeverityLevel"
+    },
+    {
+      "id": "has_likelihood",
+      "label": "Has Likelihood",
+      "description": "Indicates the likelihood of a risk",
+      "domain": "Risk",
+      "range": "LikelihoodLevel"
+    },
+    {
+      "id": "has_timeframe",
+      "label": "Has Timeframe",
+      "description": "Indicates the timeframe of a risk",
+      "domain": "Risk",
+      "range": "Timeframe"
+    }
+  ]
+}
